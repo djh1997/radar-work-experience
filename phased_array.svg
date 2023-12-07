@@ -33,7 +33,7 @@
     <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="10s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="380" cy="303" r="1" stroke="green" fill="none" repeatCount="indefinite"/>
+  <circle cx="380" cy="303" r="1" stroke="green" fill="none"/>
   <circle cx="380" cy="303" r="0" stroke="green" fill="none">
     <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="40s" repeatCount="indefinite"/>
   </circle>
