@@ -1,41 +1,41 @@
 <svg width="600" height="600">
   <circle cx="100" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" repeatCount="indefinite"/>
   </circle>
   <circle cx="120" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="1s" repeatCount="indefinite"/>
   </circle>
   <circle cx="140" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="2s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="2s" repeatCount="indefinite"/>
   </circle>
   <circle cx="160" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="3s" repeatCount="indefinite"/>
   </circle>
   <circle cx="180" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="4s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="4s" repeatCount="indefinite"/>
   </circle>
   <circle cx="200" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="5s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="5s" repeatCount="indefinite"/>
   </circle>
   <circle cx="220" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="6s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="6s" repeatCount="indefinite"/>
   </circle>
   <circle cx="240" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="7s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="7s" repeatCount="indefinite"/>
   </circle>
   <circle cx="260" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="8s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="8s" repeatCount="indefinite"/>
   </circle>
   <circle cx="280" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="9s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="9s" repeatCount="indefinite"/>
   </circle>
   <circle cx="300" cy="3" r="0" stroke="black" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="10s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="10s" repeatCount="indefinite"/>
   </circle>
 
   <circle cx="380" cy="303" r="1" stroke="green" fill="none"/>
   <circle cx="380" cy="303" r="0" stroke="green" fill="none">
-    <animate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="40s" repeatCount="indefinite"/>
+    <animate attributeType="CSS" attributeName="r" from="0" to="900" dur="90s" begin="40s" repeatCount="indefinite"/>
   </circle>
 
   <circle cx="100" cy="3" r="1" stroke="red" fill="none"/>
