@@ -1,7 +1,7 @@
 # Logic gates
 
 ## Buffer
-![buffer](/dev/buffer.svg)
+![buffer](/dev/buffer.svg "buffer")
 | Input | Output |
 | ----- | ------ |
 | A | Q |
@@ -11,7 +11,7 @@
 ***
 ## Not
 
-![not](/dev/not.svg)
+![not gate](/dev/not.svg "not gate")
 | Input | Output |
 | ----- | ------ |
 | A | Q |
@@ -20,7 +20,7 @@
 ***
 
 ## And
-![and](/dev/and.svg)
+![and gate](/dev/and.svg "and gate")
 | Input | | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -31,7 +31,7 @@
 ***
 
 ## Or
-![or](/dev/or.svg)
+![or gate](/dev/or.svg "or gate")
 | Input | | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -42,7 +42,7 @@
 ***
 
 ## Nand
-![nand](/dev/nand.svg)
+![nand gate](/dev/nand.svg "nand gate")
 | Input | | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -53,7 +53,7 @@
 ***
 
 ## Nor
-![nor](/dev/nor.svg)
+![nor gate](/dev/nor.svg "nor gate")
 | Input | | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -64,7 +64,7 @@
 ***
 
 ## Xnor
-![xnor](/dev/xnor.svg)
+![Xnor gate](/dev/xnor.svg "Xnor gate")
 | Input | | Output |
 | ----- | -- | ------ |
 | A | B | Q |
@@ -75,7 +75,7 @@
 ***
 
 ## Half adder
-![half adder](/dev/halfadder.svg)
+![half adder](/dev/halfadder.svg "half adder")
 
 | Input |     | Output |       |
 | ----- | --- | ------ | ----- |
@@ -87,7 +87,7 @@
 ***
 
 ## Adder
-![adder](/dev/adder.svg)
+![adder](/dev/adder.svg "adder")
 
 | Input |     |          | Output |       |
 | ----- | --- | -------- | ------ | ----- |
