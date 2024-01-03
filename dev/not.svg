@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg">
  <path
-       style="fill:none;stroke:#000000;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 82,25 L 105.08571,25"/>
+       style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 86.586198,25 L 103.45652,25"/>
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 39.043478,25 L 15.043478,25" />
+       d="M 39,25 L 15,25" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linejoin:miter;marker:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 38,2.59375 L 38,5 L 38,45 L 38,47.40625 L 40.15625,46.34375 L 81.1875,26.34375 L 84.03125,25 L 81.1875,23.65625 L 40.15625,3.65625 L 38,2.59375 z M 41,7.40625 L 77.125,25 L 41,42.59375 L 41,7.40625 z"
-     />
+       d="M 38,2.59375 L 38,5 L 38,45 L 38,47.40625 L 40.109024,46.34375 L 79.184573,26.87052 L 78.840667,22.958095 L 40.109024,3.65625 L 38,2.59375 z M 41.109024,7.40625 L 76.268082,25 L 41.109024,42.59375 L 41.109024,7.40625 z"
+ />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:miter;marker:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 80,25 A 4,4 0 1 1 72,25 A 4,4 0 1 1 80,25 z"
+       transform="translate(6.4565219,0)" />
     <text
-       xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="11.460938"
-       y="30"><tspan
+       y="30.000002"><tspan
          x="11.460938"
-         y="30">A</tspan></text>
+         y="30.000002">A</tspan></text>
     <text
-       xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="118.41016"
        y="30"><tspan
