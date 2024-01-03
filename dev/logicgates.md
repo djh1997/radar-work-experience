@@ -1,5 +1,6 @@
 # Logic gates
 
+## Buffer
 ![buffer](/dev/buffer.svg)
 | Input | Output |
 | ----- | ------ |
@@ -7,13 +8,18 @@
 | 0 | |
 | 1 | |
 
+***
+## Not
+
 ![not](/dev/not.svg)
 | Input | Output |
 | ----- | ------ |
 | A | Q |
 | 0 | |
 | 1 | |
+***
 
+## And
 ![and](/dev/and.svg)
 | Input | | Output |
 | --- | -- | ------ |
@@ -22,7 +28,9 @@
 | 0 | 1 | |
 | 1 | 0 | |
 | 1 | 1 | |
+***
 
+## Or
 ![or](/dev/or.svg)
 | Input | | Output |
 | --- | -- | ------ |
@@ -31,7 +39,9 @@
 | 0 | 1 | |
 | 1 | 0 | |
 | 1 | 1 | |
+***
 
+## Nand
 ![nand](/dev/nand.svg)
 | Input | | Output |
 | --- | -- | ------ |
@@ -40,7 +50,9 @@
 | 0 | 1 | |
 | 1 | 0 | |
 | 1 | 1 | |
+***
 
+## Nor
 ![nor](/dev/nor.svg)
 | Input | | Output |
 | --- | -- | ------ |
@@ -49,7 +61,9 @@
 | 0 | 1 | |
 | 1 | 0 | |
 | 1 | 1 | |
+***
 
+## Xnor
 ![xnor](/dev/xnor.svg)
 | Input | | Output |
 | ----- | -- | ------ |
@@ -58,7 +72,9 @@
 | 0 | 1 | |
 | 1 | 0 | |
 | 1 | 1 | |
+***
 
+## Half adder
 ![half adder](/dev/halfadder.svg)
 
 | Input |     | Output |       |
@@ -68,7 +84,9 @@
 | 0     | 1   |        |       |
 | 1     | 0   |        |       |
 | 1     | 1   |        |       |
+***
 
+## Adder
 ![adder](/dev/adder.svg)
 
 | Input |     |          | Output |       |
