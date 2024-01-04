@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg">
-<path
+<svg xmlns="http://www.w3.org/2000/svg" height="50">
+  <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 80.03125,25 C 100.03125,25 105.03125,25 105.03125,25"/>
+       d="M 88.203221,25 C 109.29453,25 105.07627,25 105.07627,25"
+/>
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 41.03125,15 L 15.03125,15"/>
+       d="M 41.076272,15 L 15.076272,15" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.99999988;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 42.03125,35 L 15.03125,35"/>
+       d="M 42.076272,35 L 15.076272,35"/>
     <g
        transform="translate(26.5,-39.5)">
       <path
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 7.625,44.5 L 9.625,46.9375 C 9.625,46.9375 15.28125,53.937549 15.28125,64.5 C 15.28125,75.062451 9.625,82.0625 9.625,82.0625 L 7.625,84.5 L 10.78125,84.5 L 24.78125,84.5 C 27.189326,84.500001 32.470949,84.524514 38.40625,82.09375 C 44.341551,79.662986 50.942786,74.750484 56.09375,65.21875 L 54.78125,64.5 L 56.09375,63.78125 C 45.790637,44.71559 29.537824,44.5 24.78125,44.5 L 10.78125,44.5 L 7.625,44.5 z M 13.5,47.5 L 24.78125,47.5 C 29.465423,47.5 43.0681,47.369793 52.75,64.5 C 47.983214,72.929075 42.228719,77.18391 37.03125,79.3125 C 31.670589,81.507924 27.189325,81.500001 24.78125,81.5 L 13.53125,81.5 C 15.404838,78.391566 18.28125,72.45065 18.28125,64.5 C 18.28125,56.526646 15.372719,50.599815 13.5,47.5 z"
-          />
+         d="M 7.6700216,44.5 L 9.6700216,46.9375 C 9.6700216,46.9375 15.326272,53.937549 15.326272,64.5 C 15.326272,75.062451 9.6700216,82.0625 9.6700216,82.0625 L 7.6700216,84.5 L 10.826272,84.5 L 24.826272,84.5 C 27.234348,84.500001 32.515971,84.524514 38.451272,82.09375 C 43.952029,79.840951 50.024779,75.456504 54.984922,67.238862 L 53.826272,64.5 L 54.987161,61.767184 C 44.664037,44.700133 29.409159,44.5 24.826272,44.5 L 10.826272,44.5 L 7.6700216,44.5 z M 13.545022,47.5 L 24.826272,47.5 C 29.510445,47.5 43.113122,47.369793 52.795022,64.5 C 48.028236,72.929075 42.273741,77.18391 37.076272,79.3125 C 31.715611,81.507924 27.234347,81.500001 24.826272,81.5 L 13.576272,81.5 C 15.44986,78.391566 18.326272,72.45065 18.326272,64.5 C 18.326272,56.526646 15.41774,50.599815 13.545022,47.5 z"
+ />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:miter;marker:none;stroke-opacity:1;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+
+         d="M 79,25 A 4,4 0 1 1 71,25 A 4,4 0 1 1 79,25 z"
+         transform="translate(-17.423728,39.5)" />
       <text
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
          x="-15.039063"
-         y="59.706055"><tspan
+         y="59.5"><tspan
            x="-15.039063"
-           y="59.706055">A</tspan></text>
+           y="59.5">A</tspan></text>
       <text
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="-15.011719"
-         y="79.706055"><tspan
-           x="-15.011719"
-           y="79.706055">B</tspan></text>
+         x="-15.01172"
+         y="79.5"><tspan
+           x="-15.01172"
+           y="79.5">B</tspan></text>
       <text
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;line-height:100%;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
-         x="91.910156"
-         y="69.706055"><tspan
-           x="91.910156"
-           y="69.706055">Q</tspan></text></g>
+         x="91.910164"
+         y="69.5"><tspan
+           x="91.910164"
+           y="69.5">Q</tspan></text></g>
 </svg>
