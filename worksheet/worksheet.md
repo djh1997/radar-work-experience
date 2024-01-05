@@ -53,6 +53,8 @@ C can run on most major platforms from microcontrollers like Arduino to single b
 
 ## Sonar
 
+![sonar](/worksheet/sonar.svg)
+
 This is the ultra-sonic sensor that we will be using, the way these work is by sending out a pulse of sound and waiting to the echo to come back.
 
 The way you trigger the ultrasonic sensor is by setting the trig pin high for 10 µs
@@ -72,6 +74,8 @@ It is then possible to calculate the distance by using the time of flight. Tinke
 ```
 
 ## Servo
+
+![servo](/worksheet/servo.svg)
 
 The next component we will be adding is a servo. A servo is a geared motor with feedback, this means that we can send it a position and it will turn to that position. Simulation
 
@@ -123,9 +127,11 @@ Void loop(){
 
 ## Final project
 
+![fianl proget](https://csg.tinkercad.com/things/jVeZ0btGQeu/t725.png?rev=1666183576581000000&s=&v=1&type=circuits)
+
  The final project is going to be combing all thee into one part that can be used to monitor the distance to nearby object in a 160^o^ degrees and display the distance on the led strip using with green being clear going to red as the object gets closer. Tinkercad design [^3]
 
 Design link
-[^1]: [sonar](https://www.tinkercad.com/things/jVeZ0btGQeu)
+[^1]: [Ultrasonic](https://www.tinkercad.com/things/2m9z7J7ilNz)
 [^2]: [Servo](https://www.tinkercad.com/things/jJ56Dm6xdup)
-[^3]: [Ultrasonic](https://www.tinkercad.com/things/2m9z7J7ilNz)
+[^3]: [sonar](https://www.tinkercad.com/things/jVeZ0btGQeu)
