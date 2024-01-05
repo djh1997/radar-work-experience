@@ -25,7 +25,7 @@
 ## And
 
 ![and gate](/logic/and.svg "and gate")
-| Input | | Output |
+| Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
 | 0 | 0 | |
@@ -38,7 +38,7 @@
 ## Or
 
 ![or gate](/logic/or.svg "or gate")
-| Input | | Output |
+| Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
 | 0 | 0 | |
@@ -51,7 +51,7 @@
 ## Xor
 
 ![xor gate](/logic/xor.svg "xor gate")
-| Input | | Output |
+| Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
 | 0 | 0 | |
@@ -64,7 +64,7 @@
 ## Nand
 
 ![nand gate](/logic/nand.svg "nand gate")
-| Input | | Output |
+| Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
 | 0 | 0 | |
@@ -77,7 +77,7 @@
 ## Nor
 
 ![nor gate](/logic/nor.svg "nor gate")
-| Input | | Output |
+| Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
 | 0 | 0 | |
@@ -90,7 +90,7 @@
 ## Xnor
 
 ![Xnor gate](/logic/xnor.svg "Xnor gate")
-| Input | | Output |
+| Input1 | Input2 | Output |
 | ----- | -- | ------ |
 | A | B | Q |
 | 0 | 0 | |
