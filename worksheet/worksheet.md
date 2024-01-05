@@ -15,9 +15,9 @@ The lines coming from the Arduino box represent pins on the board where wires an
 
 There are 3 main types of pins to look for.  
 
-- The ones labelled with ‘A’ and a number are Analogue pins.
-- The ones labelled ‘D’ and a number are Digital Pins.
-- The ones with other labels like ‘5v’ and ‘Gnd’ are the other connections to the board, like power.
+- The ones labelled with **A** and a number are Analogue pins.
+- The ones labelled **D** and a number are Digital Pins.
+- The ones with other labels like **5v** and **Gnd** are the other connections to the board, like power.
 
 ## C language
 
