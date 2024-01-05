@@ -9,6 +9,8 @@ The first activity is to understand how these symbols and pictures relate to ele
 
 In the circuit diagram, the Arduino microcontroller will be shown as a box with information written in it.
 
+![arduino](/worksheet/arduino.svg)
+
 The lines coming from the Arduino box represent pins on the board where wires and components can be connected.
 
 There are 3 main types of pins to look for.  
