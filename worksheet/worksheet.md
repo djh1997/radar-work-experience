@@ -3,6 +3,8 @@
 For the hands-on activity you will be making your own electronic circuits and making the code to run them.
 You may have already done some electronics at school; if you have you will recognise some of the symbols below.
 
+![circuit diagram symbols](/worksheet/circuit_symbols.svg)
+
 The first activity is to understand how these symbols and pictures relate to electronic components, and how by connecting them together they can show us how to build a circuit from scratch.
 
 In the circuit diagram, the Arduino microcontroller will be shown as a box with information written in it.
@@ -53,7 +55,7 @@ This is the ultra-sonic sensor that we will be using, the way these work is by s
 
 The way you trigger the ultrasonic sensor is by setting the trig pin high for 10 µs
 To get the time of flight you time the length of a high pulse received from the echo pin
-It is then possible to calculate the distance by using the time of flight. Simulation
+It is then possible to calculate the distance by using the time of flight. Tinkercad design [^1]
 
 **Distance = time of flight x speed of sound / 2**
 
@@ -71,9 +73,9 @@ It is then possible to calculate the distance by using the time of flight. Simul
 
 The next component we will be adding is a servo. A servo is a geared motor with feedback, this means that we can send it a position and it will turn to that position. Simulation
 
-The signal we need to send is a square wave similar to PWM. Each cycle in the signal lasts for 20 milliseconds and for most of the time, the value is LOW. At the beginning of each cycle, the signal is HIGH for a time between 1 and 2 milliseconds. At 1 millisecond it represents 0 degrees and at 2 milliseconds it represents 180 degrees.
+The signal we need to send is a square wave similar to PWM. Each cycle in the signal lasts for 20 milliseconds and for most of the time, the value is LOW. At the beginning of each cycle, the signal is HIGH for a time between 1 and 2 milliseconds. At 1 millisecond it represents 0 degrees and at 2 milliseconds it represents 180^o^ degrees.
 
-For controlling the servo there is a library that deals with setting up the PWM signal so all we need to do is tell the library which pin the servo is connected to and then what position we want.
+For controlling the servo there is a library that deals with setting up the PWM signal so all we need to do is tell the library which pin the servo is connected to and then what position we want.Tinkercad design [^2]
 
 ```c
 #include <Servo.h>
@@ -90,7 +92,7 @@ Void loop(){
 ## Addressable LED’s
 
 To display the distance to the nearest object we will be using a strip of addressable LED’s.
-Addressable LEDS have a tiny microcontroller on each of the LEDs to allow each one to light up with a unique colour and brightness.  The strips have a positive voltage wire, a ground, and a data wire.  Each time the data reaches an LED it is read and passed down the strip to the next led. First chip reads the incoming address as LED 0, and then performs the instructions for LED 0; it also passes the data on to the next chip after increasing the counter value by 1.  In other words, the first LED says “Okay, I’m LED 0, the next LED to get this message is LED 1”; this message continues down the strip until there are no more LEDS left.  The important thing for you to know here is that each LED in the strip needs to be given specific instructions with their specific address.
+Addressable LEDS have a tiny microcontroller on each of the LEDs to allow each one to light up with a unique colour and brightness.  The strips have a positive voltage wire, a ground, and a data wire.  Each time the data reaches an LED it is read and passed down the strip to the next led. First chip reads the incoming address as LED 0, and then performs the instructions for LED 0; it also passes the data on to the next chip after increasing the counter value by 1.  In other words, the first LED says “*Okay, I’m LED 0, the next LED to get this message is LED 1*”; this message continues down the strip until there are no more LEDS left.  The important thing for you to know here is that each LED in the strip needs to be given specific instructions with their specific address.
 
 - The LED’s we are using is Adafruit’s NeoPixel these are 5v addressable led.
 
@@ -119,9 +121,9 @@ Void loop(){
 
 ## Final project
 
- The final project is going to be combing all thee into one part that can be used to monitor the distance to nearby object in a 160¬¬¬o degrees and display the distance on the led strip using with green being clear going to red as the object gets closer. Tinkercad design
+ The final project is going to be combing all thee into one part that can be used to monitor the distance to nearby object in a 160^o^ degrees and display the distance on the led strip using with green being clear going to red as the object gets closer. Tinkercad design [^3]
 
 Design link
-Ultrasonic  <https://www.tinkercad.com/things/2m9z7J7ilNz>
-Servo <https://www.tinkercad.com/things/jJ56Dm6xdup>
-sonar <https://www.tinkercad.com/things/jVeZ0btGQeu>
+[^1]: [sonar](https://www.tinkercad.com/things/jVeZ0btGQeu)
+[^2]: [Servo](https://www.tinkercad.com/things/jJ56Dm6xdup)
+[^3]: [Ultrasonic](https://www.tinkercad.com/things/2m9z7J7ilNz)
