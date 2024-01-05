@@ -1,4 +1,3 @@
 # radar-work-experience
 
-
-![pa](/phased_array.svg)
+![phased array wave front example with reflection](/phased_array.svg)
