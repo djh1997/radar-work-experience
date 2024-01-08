@@ -9,7 +9,7 @@ The first activity is to understand how these symbols and pictures relate to ele
 
 In the circuit diagram, the Arduino microcontroller will be shown as a box with information written in it.
 
-![arduino](/worksheet/arduino.svg)
+![arduino](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/ATmega328P_28-PDIP.svg/710px-ATmega328P_28-PDIP.svg.png)
 
 The lines coming from the Arduino box represent pins on the board where wires and components can be connected.
 
