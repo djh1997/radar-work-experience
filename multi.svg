@@ -1,150 +1,150 @@
 
 <svg width="600" height="600">
   <circle cx="100" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" />
   </circle>
   <circle cx="120" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="1s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="1s" />
   </circle>
   <circle cx="140" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="2s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="2s" />
   </circle>
   <circle cx="160" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="3s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="3s" />
   </circle>
   <circle cx="180" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="4s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="4s" />
   </circle>
   <circle cx="200" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="5s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="5s" />
   </circle>
   <circle cx="220" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="6s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="6s" />
   </circle>
   <circle cx="240" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="7s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="7s" />
   </circle>
   <circle cx="260" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="8s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="8s" />
   </circle>
   <circle cx="280" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="9s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="9s" />
   </circle>
   <circle cx="300" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="10s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="10s" />
   </circle>
   <circle cx="100" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="40s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="40s" />
   </circle>
   <circle cx="120" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="41s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="41s" />
   </circle>
   <circle cx="140" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="42s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="42s" />
   </circle>
   <circle cx="160" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="43s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="43s" />
   </circle>
   <circle cx="180" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="44s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="44s" />
   </circle>
   <circle cx="200" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="45s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="45s" />
   </circle>
   <circle cx="220" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="46s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="46s" />
   </circle>
   <circle cx="240" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="47s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="47s" />
   </circle>
   <circle cx="260" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="48s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="48s" />
   </circle>
   <circle cx="280" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="49s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="49s" />
   </circle>
   <circle cx="300" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="50s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="50s" />
   </circle>
   <circle cx="100" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="20s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="20s" />
   </circle>
   <circle cx="120" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="21s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="21s" />
   </circle>
   <circle cx="140" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="22s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="22s" />
   </circle>
   <circle cx="160" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="23s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="23s" />
   </circle>
   <circle cx="180" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="24s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="24s" />
   </circle>
   <circle cx="200" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="25s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="25s" />
   </circle>
   <circle cx="220" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="26s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="26s" />
   </circle>
   <circle cx="240" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="27s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="27s" />
   </circle>
   <circle cx="260" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="28s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="28s" />
   </circle>
   <circle cx="280" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="29s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="29s" />
   </circle>
   <circle cx="300" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="30s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="30s" />
   </circle>
   <circle cx="100" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="60s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="60s" />
   </circle>
   <circle cx="120" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="61s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="61s" />
   </circle>
   <circle cx="140" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="62s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="62s" />
   </circle>
   <circle cx="160" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="63s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="63s" />
   </circle>
   <circle cx="180" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="64s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="64s" />
   </circle>
   <circle cx="200" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="65s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="65s" />
   </circle>
   <circle cx="220" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="66s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="66s" />
   </circle>
   <circle cx="240" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="67s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="67s" />
   </circle>
   <circle cx="260" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="68s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="68s" />
   </circle>
   <circle cx="280" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="69s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="69s" />
   </circle>
   <circle cx="300" cy="3" r="0" stroke="black" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="70s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="70s" />
   </circle>
 
   <circle cx="380" cy="303" r="1" stroke="green" fill="none"/>
   <circle cx="380" cy="303" r="0" stroke="green" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="40s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="40s" />
   </circle>
   <circle cx="380" cy="303" r="0" stroke="green" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="60s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="60s" />
   </circle>
   <circle cx="380" cy="303" r="0" stroke="green" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="80s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="80s" />
   </circle>
   <circle cx="380" cy="303" r="0" stroke="green" fill="none">
-    <aminate attributeType="CSS" attributeName=r from="0" to="900" dur="90s" begin="100s" />
+    <animate repeatDur="indefinite" attributeType="CSS" attributeName=r from="0" to="600" dur="60s" begin="100s" />
   </circle>
 
   <circle cx="100" cy="3" r="1" stroke="red" fill="none"/>
