@@ -28,8 +28,6 @@ begin
     Clk: PROCESS is
     begin
 
-
-
         while now <= 500*clk_speed loop
 
             clk_system <= '0';
@@ -41,6 +39,5 @@ begin
 
         wait;
     END PROCESS;
-
 
 END architecture tb;

@@ -13,7 +13,6 @@ ENTITY busadd IS
         carry   : OUT   std_logic
     );
 
-
 END busadd ;
 
 ARCHITECTURE busadder OF busadd IS

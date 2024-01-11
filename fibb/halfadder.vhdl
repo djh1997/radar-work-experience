@@ -11,7 +11,6 @@ ENTITY halfadd IS
         sum, carry	: OUT   std_logic
     );
 
-
 END halfadd ;
 
 ARCHITECTURE halfadder OF halfadd IS
