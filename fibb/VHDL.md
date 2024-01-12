@@ -1,6 +1,6 @@
 # VHDL
   
-the individual file contain the building block for all the sub components.
+The individual file contain the building block for all the sub components.
   
 ```vhdl
 LIBRARY ieee;
@@ -25,7 +25,7 @@ BEGIN
 END halfadder;
 ```  
   
-then architecture code two link them together.
+Then architecture code two link them together.
   
 ```vhdl
 LIBRARY ieee;
@@ -91,7 +91,7 @@ BEGIN
 END busadder;
 ```  
   
-then there is the GPIO test bench to run a simulation of the code.
+Then there is the GPIO test bench to run a simulation of the code.
   
 ```vhdl
 LIBRARY IEEE;
