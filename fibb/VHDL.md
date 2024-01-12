@@ -1,6 +1,6 @@
 # VHDL
   
-The individual file contain the building block for all the sub components.
+The individual files contain the building block for all the sub components.
   
 ```vhdl
 LIBRARY ieee;
@@ -25,7 +25,7 @@ BEGIN
 END halfadder;
 ```  
   
-Then architecture code two link them together.
+The architecture code link them together into larger blocks of logic.
   
 ```vhdl
 LIBRARY ieee;
