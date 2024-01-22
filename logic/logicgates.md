@@ -3,6 +3,7 @@
 ## Buffer
 
 ![buffer](buffer.svg "buffer")
+
 | Input | Output |
 | ----- | ------ |
 | A     | Q      |
@@ -14,17 +15,19 @@
 ## Not
 
 ![not gate](not.svg "not gate")
+
 | Input | Output |
 | ----- | ------ |
 | A | Q |
-| 0 |  |
-| 1 |  |
+| 0 | ? |
+| 1 | ? |
 
 ---
 
 ## And
 
 ![and gate](and.svg "and gate")
+
 | Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
