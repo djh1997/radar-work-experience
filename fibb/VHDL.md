@@ -1,7 +1,9 @@
 # VHDL
   
 **V**HSIC **H**ardware **D**escription **L**anguage
+
 **V**ery **H**igh **S**peed **IC**
+
 **I**ntegrated **C**ircuit
 
 is a language thats used to describe the layout of the an **F**ield **P**rogrammable **G**ate **A**rray
