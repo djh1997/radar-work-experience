@@ -9,6 +9,9 @@ is a language thats used to describe the layout of the an **F**ield **P**rogramm
 FPGA's are used for low production runs and high modifiability for future updates.
 
 The individual files contain the building block for all the sub components.
+
+![halfadder](/logic/halfadder.svg)
+![fulladder](/logic/adder.svg)
   
 ```vhdl
 LIBRARY ieee;
