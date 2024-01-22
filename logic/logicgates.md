@@ -2,7 +2,7 @@
 
 ## Buffer
 
-![buffer](/logic/buffer.svg "buffer")
+![buffer](buffer.svg "buffer")
 | Input | Output |
 | ----- | ------ |
 | A | Q |
@@ -13,7 +13,7 @@
 
 ## Not
 
-![not gate](/logic/not.svg "not gate")
+![not gate](not.svg "not gate")
 | Input | Output |
 | ----- | ------ |
 | A | Q |
@@ -24,7 +24,7 @@
 
 ## And
 
-![and gate](/logic/and.svg "and gate")
+![and gate](and.svg "and gate")
 | Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -37,7 +37,7 @@
 
 ## Or
 
-![or gate](/logic/or.svg "or gate")
+![or gate](or.svg "or gate")
 | Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -50,7 +50,7 @@
 
 ## Xor
 
-![xor gate](/logic/xor.svg "xor gate")
+![xor gate](xor.svg "xor gate")
 | Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -63,7 +63,7 @@
 
 ## Nand
 
-![nand gate](/logic/nand.svg "nand gate")
+![nand gate](nand.svg "nand gate")
 | Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -76,7 +76,7 @@
 
 ## Nor
 
-![nor gate](/logic/nor.svg "nor gate")
+![nor gate](nor.svg "nor gate")
 | Input1 | Input2 | Output |
 | --- | -- | ------ |
 | A | B | Q |
@@ -89,7 +89,7 @@
 
 ## Xnor
 
-![Xnor gate](/logic/xnor.svg "Xnor gate")
+![Xnor gate](xnor.svg "Xnor gate")
 | Input1 | Input2 | Output |
 | ----- | -- | ------ |
 | A | B | Q |
@@ -102,7 +102,7 @@
 
 ## Half adder
 
-![half adder](/logic/halfadder.svg "half adder")
+![half adder](halfadder.svg "half adder")
 
 | Input |     | Output |       |
 | ----- | --- | ------ | ----- |
@@ -116,7 +116,7 @@
 
 ## Adder
 
-![adder](/logic/adder.svg "adder")
+![adder](adder.svg "adder")
 
 | Input |     |          | Output |       |
 | ----- | --- | -------- | ------ | ----- |
