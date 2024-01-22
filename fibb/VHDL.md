@@ -13,7 +13,7 @@ The individual files contain the building block for all the sub components.
 ![halfadder](/logic/halfadder.svg)
 ![fulladder](/logic/adder.svg)
   
-![vhdl](/fibb/halfadder.vhdl)
+
 ```vhdl
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
