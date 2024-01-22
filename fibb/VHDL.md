@@ -12,8 +12,8 @@ FPGA's are used for low production runs and high modifiability for future update
 
 The individual files contain the building block for all the sub components.
 
-![halfadder](/logic/halfadder.svg)
-![fulladder](/logic/adder.svg)
+![halfadder](../logic/halfadder.svg)
+![fulladder](../logic/adder.svg)
   
 
 ```vhdl
