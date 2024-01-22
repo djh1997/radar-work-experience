@@ -10,6 +10,8 @@ is a language thats used to describe the layout of the an **F**ield **P**rogramm
 
 FPGA's are used for low production runs and high modifiability for future updates.
 
+They have their roots in a [US DOD project](https://en.wikipedia.org/wiki/Very_High_Speed_Integrated_Circuit_Program) from the early 1980s.
+
 The individual [files](https://github.com/djh1997/radar-work-experience/tree/main/fibb) contain the building block for all the sub components.
 
 ![halfadder](../logic/halfadder.svg)
