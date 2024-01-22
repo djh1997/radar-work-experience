@@ -5,9 +5,9 @@
 ![buffer](buffer.svg "buffer")
 | Input | Output |
 | ----- | ------ |
-| A | Q |
-| 0 |  |
-| 1 |  |
+| A     | Q      |
+| 0     |        |
+| 1     |        |
 
 ---
 
