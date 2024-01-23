@@ -8,7 +8,7 @@
 
 is a language thats used to describe the layout of the an **F**ield **P**rogrammable **G**ate **A**rray
 
-FPGA's are used for low production runs and high modifiability for future updates.
+FPGA's are used for low production runs and high modifiability for future updates. Another use case is during the development of **A**pplication **S**pecific **I**ntegrated **C**ircuit to reduce the prototyping cycle time.
 
 They have their roots in a [US DOD project](https://en.wikipedia.org/wiki/Very_High_Speed_Integrated_Circuit_Program) from the early 1980s.
 
@@ -17,7 +17,6 @@ The individual [files](https://github.com/djh1997/radar-work-experience/tree/mai
 ![halfadder](../logic/halfadder.svg)
 ![fulladder](../logic/adder.svg)
   
-
 ```vhdl
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
