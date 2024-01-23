@@ -6,7 +6,14 @@
 
 **I**ntegrated **C**ircuit
 
-is a language thats used to describe the layout of the an **F**ield **P**rogrammable **G**ate **A**rray
+Is a language that is used to describe the layout of the a **P**rogrammable **L**ogic **D**evice
+
+There is a hierarchy of PLD's
+
+- **S**imple **P**rogrammable **L**ogic **D**evices
+- **G**eneric **A**rray **L**ogic
+- **C**omplex **P**rogrammable **L**ogic **D**evices
+- **F**ield **P**rogrammable **G**ate **A**rray
 
 FPGA's are used for low production runs and high modifiability for future updates. Another use case is during the development of **A**pplication **S**pecific **I**ntegrated **C**ircuit to reduce the prototyping cycle time.
 
