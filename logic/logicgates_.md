@@ -96,7 +96,7 @@ The NOR gate is a digital logic gate which produces A HIGH output (1) result if 
 
 XOR gate is a digital logic gate that gives a true (1 or HIGH) output when the number of true inputs is odd. An XOR gate implements an exclusive or ; that is, a true output results if one, and only one, of the inputs to the gate is true. If both inputs are false (0/LOW) or both are true, a false output results.
 
-![xor gate](/logic/xor.svg "xor gate")
+![xor gate](xor.svg "xor gate")
 
 | Input1 | Input2 | Output |
 | ------ | ------ | ------ |
