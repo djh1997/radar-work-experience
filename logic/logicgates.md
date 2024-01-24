@@ -6,11 +6,11 @@ A digital buffer is an electronic circuit element used to isolate an input from 
 
 ![buffer](buffer.svg "buffer")
 
-| Input | Output |
-| ----- | ------ |
-| A     | Q      |
-| 0     |        |
-| 1     |        |
+| Input | Output                  |
+| ----- | ----------------------- |
+| A     | Q                       |
+| 0     | <input type="checkbox"> |
+| 1     | <input type="checkbox"> |
 
 ---
 
@@ -20,11 +20,11 @@ An inverter or NOT gate is a logic gate which implements logical negation. It ou
 
 ![not gate](not.svg "not gate")
 
-| Input | Output |
-| ----- | ------ |
-| A     | Q      |
-| 0     |        |
-| 1     |        |
+| Input | Output                  |
+| ----- | ----------------------- |
+| A     | Q                       |
+| 0     | <input type="checkbox"> |
+| 1     | <input type="checkbox"> |
 
 ---
 
@@ -34,13 +34,13 @@ The AND gate is a basic digital logic gate that implements logical conjunction. 
 
 ![and gate](and.svg "and gate")
 
-| Input1 | Input2 | Output |
-| ------ | ------ | ------ |
-| A      | B      | Q      |
-| 0      | 0      |        |
-| 0      | 1      |        |
-| 1      | 0      |        |
-| 1      | 1      |        |
+| Input1 | Input2 | Output                  |
+| ------ | ------ | ----------------------- |
+| A      | B      | Q                       |
+| 0      | 0      | <input type="checkbox"> |
+| 0      | 1      | <input type="checkbox"> |
+| 1      | 0      | <input type="checkbox"> |
+| 1      | 1      | <input type="checkbox"> |
 
 ---
 
@@ -50,13 +50,13 @@ The OR gate is a digital logic gate that implements logical disjunction. It outp
 
 ![or gate](or.svg "or gate")
 
-| Input1 | Input2 | Output |
-| ------ | ------ | ------ |
-| A      | B      | Q      |
-| 0      | 0      |        |
-| 0      | 1      |        |
-| 1      | 0      |        |
-| 1      | 1      |        |
+| Input1 | Input2 | Output                  |
+| ------ | ------ | ----------------------- |
+| A      | B      | Q                       |
+| 0      | 0      | <input type="checkbox"> |
+| 0      | 1      | <input type="checkbox"> |
+| 1      | 0      | <input type="checkbox"> |
+| 1      | 1      | <input type="checkbox"> |
 
 ---
 
@@ -66,13 +66,13 @@ A NAND gate (NOT-AND) is a logic gate which produces an output which is false on
 
 ![nand gate](nand.svg "nand gate")
 
-| Input1 | Input2 | Output |
-| ------ | ------ | ------ |
-| A      | B      | Q      |
-| 0      | 0      |        |
-| 0      | 1      |        |
-| 1      | 0      |        |
-| 1      | 1      |        |
+| Input1 | Input2 | Output                  |
+| ------ | ------ | ----------------------- |
+| A      | B      | Q                       |
+| 0      | 0      | <input type="checkbox"> |
+| 0      | 1      | <input type="checkbox"> |
+| 1      | 0      | <input type="checkbox"> |
+| 1      | 1      | <input type="checkbox"> |
 
 ---
 
@@ -82,13 +82,13 @@ The NOR gate is a digital logic gate which produces A HIGH output (1) result if 
 
 ![nor gate](nor.svg "nor gate")
 
-| Input1 | Input2 | Output |
-| ------ | ------ | ------ |
-| A      | B      | Q      |
-| 0      | 0      |        |
-| 0      | 1      |        |
-| 1      | 0      |        |
-| 1      | 1      |        |
+| Input1 | Input2 | Output                  |
+| ------ | ------ | ----------------------- |
+| A      | B      | Q                       |
+| 0      | 0      | <input type="checkbox"> |
+| 0      | 1      | <input type="checkbox"> |
+| 1      | 0      | <input type="checkbox"> |
+| 1      | 1      | <input type="checkbox"> |
 
 ---
 
@@ -98,13 +98,13 @@ XOR gate is a digital logic gate that gives a true (1 or HIGH) output when the n
 
 ![xor gate](xor.svg "xor gate")
 
-| Input1 | Input2 | Output |
-| ------ | ------ | ------ |
-| A      | B      | Q      |
-| 0      | 0      |        |
-| 0      | 1      |        |
-| 1      | 0      |        |
-| 1      | 1      |        |
+| Input1 | Input2 | Output                  |
+| ------ | ------ | ----------------------- |
+| A      | B      | Q                       |
+| 0      | 0      | <input type="checkbox"> |
+| 0      | 1      | <input type="checkbox"> |
+| 1      | 0      | <input type="checkbox"> |
+| 1      | 1      | <input type="checkbox"> |
 
 ---
 
@@ -114,13 +114,13 @@ The XNOR gate is a digital logic gate whose function is the logical complement o
 
 ![Xnor gate](xnor.svg "Xnor gate")
 
-| Input1 | Input2 | Output |
-| ------ | ------ | ------ |
-| A      | B      | Q      |
-| 0      | 0      |        |
-| 0      | 1      |        |
-| 1      | 0      |        |
-| 1      | 1      |        |
+| Input1 | Input2 | Output                  |
+| ------ | ------ | ----------------------- |
+| A      | B      | Q                       |
+| 0      | 0      | <input type="checkbox"> |
+| 0      | 1      | <input type="checkbox"> |
+| 1      | 0      | <input type="checkbox"> |
+| 1      | 1      | <input type="checkbox"> |
 
 ---
 
@@ -128,13 +128,13 @@ The XNOR gate is a digital logic gate whose function is the logical complement o
 
 ![half adder](halfadder.svg "half adder")
 
-| Input |     | Output |       |
-| ----- | --- | ------ | ----- |
-| A     | B   | sum    | carry |
-| 0     | 0   |        |       |
-| 0     | 1   |        |       |
-| 1     | 0   |        |       |
-| 1     | 1   |        |       |
+| Input |     | Output                  |                         |
+| ----- | --- | ----------------------- | ----------------------- |
+| A     | B   | sum                     | carry                   |
+| 0     | 0   | <input type="checkbox"> | <input type="checkbox"> |
+| 0     | 1   | <input type="checkbox"> | <input type="checkbox"> |
+| 1     | 0   | <input type="checkbox"> | <input type="checkbox"> |
+| 1     | 1   | <input type="checkbox"> | <input type="checkbox"> |
 
 ---
 
@@ -142,14 +142,14 @@ The XNOR gate is a digital logic gate whose function is the logical complement o
 
 ![adder](adder.svg "adder")
 
-| Input |     |          | Output |       |
-| ----- | --- | -------- | ------ | ----- |
-| A     | B   | carry in | sum    | carry |
-| 0     | 0   | 0        |        |       |
-| 0     | 0   | 1        |        |       |
-| 0     | 1   | 0        |        |       |
-| 0     | 1   | 1        |        |       |
-| 1     | 0   | 0        |        |       |
-| 1     | 0   | 1        |        |       |
-| 1     | 1   | 0        |        |       |
-| 1     | 1   | 1        |        |       |
+| Input |     |          | Output                  |                         |
+| ----- | --- | -------- | ----------------------- | ----------------------- |
+| A     | B   | carry in | sum                     | carry                   |
+| 0     | 0   | 0        | <input type="checkbox"> | <input type="checkbox"> |
+| 0     | 0   | 1        | <input type="checkbox"> | <input type="checkbox"> |
+| 0     | 1   | 0        | <input type="checkbox"> | <input type="checkbox"> |
+| 0     | 1   | 1        | <input type="checkbox"> | <input type="checkbox"> |
+| 1     | 0   | 0        | <input type="checkbox"> | <input type="checkbox"> |
+| 1     | 0   | 1        | <input type="checkbox"> | <input type="checkbox"> |
+| 1     | 1   | 0        | <input type="checkbox"> | <input type="checkbox"> |
+| 1     | 1   | 1        | <input type="checkbox"> | <input type="checkbox"> |
