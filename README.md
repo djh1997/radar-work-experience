@@ -4,7 +4,7 @@
 
 ## VHDL
 
-Start with the logic gates [worksheet](/logic/logicgates.md).
+Start with the [logic gates](/logic/logicgates.md).
 
 Next learn how to [count](/binary/count.md) and [add](/binary/add.md) in binary.
 
