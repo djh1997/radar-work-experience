@@ -1,6 +1,6 @@
 # Radar work experience
 
-![phased array wave front example with reflection](/phased_array.svg)
+![phased array wave front example with reflection](/multi.svg)
 
 ## VHDL
 
