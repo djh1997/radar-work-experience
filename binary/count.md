@@ -1,4 +1,4 @@
-## Counting
+### Counting
 
 Counting in binary can seem a bit daunting but it not really any different to normal decimal counting.
 
