@@ -60,22 +60,6 @@ The OR gate is a digital logic gate that implements logical disjunction. It outp
 
 ---
 
-## Xor
-
-XOR gate is a digital logic gate that gives a true (1 or HIGH) output when the number of true inputs is odd. An XOR gate implements an exclusive or ; that is, a true output results if one, and only one, of the inputs to the gate is true. If both inputs are false (0/LOW) or both are true, a false output results.
-
-![xor gate](xor.svg "xor gate")
-
-| Input1 | Input2 | Output |
-| ------ | ------ | ------ |
-| A      | B      | Q      |
-| 0      | 0      |        |
-| 0      | 1      |        |
-| 1      | 0      |        |
-| 1      | 1      |        |
-
----
-
 ## Nand
 
 A NAND gate (NOT-AND) is a logic gate which produces an output which is false only if all its inputs are true; thus its output is complement to that of an AND gate.
@@ -97,6 +81,22 @@ A NAND gate (NOT-AND) is a logic gate which produces an output which is false on
 The NOR gate is a digital logic gate which produces A HIGH output (1) result if both the inputs to the gate are LOW (0) if one or both input is HIGH (1), a LOW output (0) results.; thus its output is complement to that of an OR gate.
 
 ![nor gate](nor.svg "nor gate")
+
+| Input1 | Input2 | Output |
+| ------ | ------ | ------ |
+| A      | B      | Q      |
+| 0      | 0      |        |
+| 0      | 1      |        |
+| 1      | 0      |        |
+| 1      | 1      |        |
+
+---
+
+## Xor
+
+XOR gate is a digital logic gate that gives a true (1 or HIGH) output when the number of true inputs is odd. An XOR gate implements an exclusive or ; that is, a true output results if one, and only one, of the inputs to the gate is true. If both inputs are false (0/LOW) or both are true, a false output results.
+
+![xor gate](xor.svg "xor gate")
 
 | Input1 | Input2 | Output |
 | ------ | ------ | ------ |
