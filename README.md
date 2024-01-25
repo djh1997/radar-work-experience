@@ -4,9 +4,11 @@
 
 ## VHDL
 
-Start with the [logic gates](/logic/logicgates.md).
+brief history on [VHDL](VHDLintro.md)
 
-Next learn how to [count](/binary/count.md) and [add](/binary/add.md) in binary.
+Start with the [logic gates](logicgates.md).
+
+Next learn how to [count](count.md) and [add](add.md) in binary.
 
 Then move on to making the half and full adder to generate the Fibonacci sequence.
-there is a brief tutorial on [VHDL](/fibb/VHDLintro.md) and its [structure](/fibb/VHDLoutro.md) .
+[Here](VHDLoutro.md) is an example structure if a VHDL project.
