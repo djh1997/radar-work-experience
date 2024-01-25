@@ -2,10 +2,10 @@
 
 ![phased array wave front example with reflection](/multi.svg)
 
-![vhdl](/fibb/VHDLintro.md)
+![vhdl](/VHDLintro.md)
 
-![logic gates](/logic/logicgates.md)
+![logic gates](/logicgates.md)
 
-![binary](/binary/fullsheet.md)
+![binary](/binary.md)
 
-![vhdl](/fibb/VHDLoutro.md)
+![vhdl](/VHDLoutrolink.md)
