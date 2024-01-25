@@ -2,8 +2,8 @@
   
 The individual [files](https://github.com/djh1997/radar-work-experience/tree/main/fibb ) contain the building block for all the sub components.
   
-![halfadder](/logic/halfadder.svg )
-![fulladder](/logic/adder.svg )
+![halfadder](logic/halfadder.svg )
+![fulladder](logic/adder.svg )
   
 ```vhdl
 LIBRARY ieee;
