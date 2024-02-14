@@ -31,5 +31,5 @@ Now try converting:
 
 | decimal | 128's | 64's | 32's | 16's | 8's | 4's | 2's | 1's |
 | ------- | ----- | ---- | ---- | ---- | --- | --- | --- | --- |
-| 97      |       |      |      |      |     |     |     |     |
-|         | 1     | 0    | 0    | 1    | 1   | 0   | 1   | 1   |
+| 97      |  <input type="checkbox">     |  <input type="checkbox">    |   <input type="checkbox">   | <input type="checkbox">     |  <input type="checkbox">   |   <input type="checkbox">  | <input type="checkbox">    |   <input type="checkbox">  |
+|     <input >    | 1     | 0    | 0    | 1    | 1   | 0   | 1   | 1   |
