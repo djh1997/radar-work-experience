@@ -479,7 +479,7 @@
 The values go up in multiples of 2 e.g. 1,2,4,8,16,32,64,128,256,1024,2048...</p>
 <p>To convert a number from decimal to binary you can:</p>
 <ul>
-<li>pick the biggest numbers in the table that is smaller than the number your converting and put a 1 in that column.</li>
+<li>pick the biggest power of 2 that is less than or equal the number your converting and put a 1 in that column.</li>
 <li>then take that number away from your original for example 105-64=41</li>
 <li>repeat this until you reach 0</li>
 </ul>
@@ -510,6 +510,46 @@ The values go up in multiples of 2 e.g. 1,2,4,8,16,32,64,128,256,1024,2048...</p
 </tbody>
 </table>
 <p>If you add up the values with 1 in there column 1+8+32+64 you get 105</p>
+<p>Now try converting:</p>
+<table>
+<thead>
+<tr>
+<th>decimal</th>
+<th>128's</th>
+<th>64's</th>
+<th>32's</th>
+<th>16's</th>
+<th>8's</th>
+<th>4's</th>
+<th>2's</th>
+<th>1's</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>97</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
 <p></p>
 <p>now onto the next lesson.</p>
 <p></p><h3 id="addition">Addition </h3>
@@ -545,11 +585,11 @@ The values go up in multiples of 2 e.g. 1,2,4,8,16,32,64,128,256,1024,2048...</p
 </tr>
 </tbody>
 </table>
-<p>Whereas in binary  we only have 2 options.</p>
+<p>Whereas in binary we only have 2 options.</p>
 <table>
 <thead>
 <tr>
-<th></th>
+<th>256's</th>
 <th>128's</th>
 <th>64's</th>
 <th>32's</th>
@@ -597,6 +637,61 @@ The values go up in multiples of 2 e.g. 1,2,4,8,16,32,64,128,256,1024,2048...</p
 </tbody>
 </table>
 <p>As you can see the ripple of carrying the 1 up moves a lot further in binary than it does in decimal.</p>
+<p>Now try 97 + 155:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>256's</th>
+<th>128's</th>
+<th>64's</th>
+<th>32's</th>
+<th>16's</th>
+<th>8's</th>
+<th>4's</th>
+<th>2's</th>
+<th>1's</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>97</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>+155</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>=</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p></p>
 <p></p>
 <p></p><h2 id="vhdl-file-structure">VHDL file structure </h2>
