@@ -9,13 +9,17 @@ When you were first learning numbers you'd have been taught about the unit's ten
 | 1         | 0     | 5      |
 
 Binary is basically the same but instead of have multiple options (0 up to 9 in binary) it on has 2 so each column is basically a tick box for is value.
-The values go up in multiples of 2 e.g. 1,2,4,8,16,32,64,128,256,1024,2048...
+The values go up in powers of 2 e.g. 1,2,4,8,16,32,64,128,256,1024,2048...
 
 To convert a number from decimal to binary you can:
 
 - pick the biggest power of 2 that is less than or equal the number your converting and put a 1 in that column.
 - then take that number away from your original for example 105-64=41
 - repeat this until you reach 0
+
+41-32=9
+9-8=1
+1-1=0
 
 | 128's | 64's | 32's | 16's | 8's | 4's | 2's | 1's |
 | ----- | ---- | ---- | ---- | --- | --- | --- | --- |
