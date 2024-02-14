@@ -16,7 +16,7 @@ A digital buffer is an electronic circuit element used to isolate an input from 
 
 ### Not
 
-An inverter or NOT gate is a logic gate which implements logical negation. It outputs a bit opposite of the bit that is put into it.
+An inverter or not gate is a logic gate which implements logical negation. It outputs a bit opposite of the bit that is put into it.
 
 ![not gate](logic/not.svg "not gate")
 
@@ -30,7 +30,7 @@ An inverter or NOT gate is a logic gate which implements logical negation. It ou
 
 ### And
 
-The AND gate is a basic digital logic gate that implements logical conjunction. A HIGH output (1) results only if all the inputs to the AND gate are HIGH (1). If not all inputs to the AND gate are HIGH, LOW output results.
+The and gate is a basic digital logic gate that implements logical conjunction. A high output (1) results only if all the inputs to the and gate are high (1). If not all inputs to the and gate are high, low output results.
 
 ![and gate](logic/and.svg "and gate")
 
@@ -46,7 +46,7 @@ The AND gate is a basic digital logic gate that implements logical conjunction. 
 
 ### Or
 
-The OR gate is a digital logic gate that implements logical disjunction. It outputs a 1 if any inputs are 1, or outputs a 0 only if all inputs are 0.
+The or gate is a digital logic gate that implements logical disjunction. It outputs a 1 if any inputs are 1, or outputs a 0 only if all inputs are 0.
 
 ![or gate](logic/or.svg "or gate")
 
@@ -62,7 +62,7 @@ The OR gate is a digital logic gate that implements logical disjunction. It outp
 
 ### Nand
 
-A NAND gate (NOT-AND) is a logic gate which produces an output which is false only if all its inputs are true; thus its output is complement to that of an AND gate.
+A Nand gate (not-and) is a logic gate which produces an output which is false only if all its inputs are true; thus its output is complement to that of an and gate.
 
 ![nand gate](logic/nand.svg "nand gate")
 
@@ -78,7 +78,7 @@ A NAND gate (NOT-AND) is a logic gate which produces an output which is false on
 
 ### Nor
 
-The NOR gate is a digital logic gate which produces A HIGH output (1) result if both the inputs to the gate are LOW (0) if one or both input is HIGH (1), a LOW output (0) results.; thus its output is complement to that of an OR gate.
+The nor gate is a digital logic gate which produces A high output (1) result if both the inputs to the gate are low (0) if one or both input is high (1), a low output (0) results.; thus its output is complement to that of an OR gate.
 
 ![nor gate](logic/nor.svg "nor gate")
 
@@ -94,7 +94,7 @@ The NOR gate is a digital logic gate which produces A HIGH output (1) result if 
 
 ### Xor
 
-XOR gate is a digital logic gate that gives a true (1 or HIGH) output when the number of true inputs is odd. An XOR gate implements an exclusive or ; that is, a true output results if one, and only one, of the inputs to the gate is true. If both inputs are false (0/LOW) or both are true, a false output results.
+The xor gate is a digital logic gate that gives a true (1 or high) output when the number of true inputs is odd. An xor gate implements an exclusive or ; that is, a true output results if one, and only one, of the inputs to the gate is true. If both inputs are false (0/low) or both are true, a false output results.
 
 ![xor gate](logic/xor.svg "xor gate")
 
@@ -110,7 +110,7 @@ XOR gate is a digital logic gate that gives a true (1 or HIGH) output when the n
 
 ### Xnor
 
-The XNOR gate is a digital logic gate whose function is the logical complement of the Exclusive OR (XOR) gate.
+The xnor gate is a digital logic gate whose function is the logical complement of the Exclusive or (xor) gate.
 
 ![Xnor gate](logic/xnor.svg "Xnor gate")
 
@@ -123,6 +123,8 @@ The XNOR gate is a digital logic gate whose function is the logical complement o
 | 1      | 1      | <input type="checkbox"> |
 
 ---
+
+Now try some where there is more than one gate.
 
 ### Half adder
 

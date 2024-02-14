@@ -1,6 +1,6 @@
 ### Addition
 
-Likely the first way you'd have learnt addition would have been column addition for any non single digit numbers
+Likely the first way you'd have learnt addition would have been column addition for any non single digit numbers.
 
 For example if we wanted to add 105 and 27 we'd end up with a table that looked some thing like this.
 

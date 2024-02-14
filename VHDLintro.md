@@ -11,9 +11,9 @@
 *[ASIC]: Application Specific Integrated Circuit
 *[US DOD]: United States Department of Defense
 
-VHDL is a language that is used to describe the layout of the a PLD on a VHSIC
+VHDL is a language that is used to describe the layout of the a PLD on a VHSIC.
 
-There is a hierarchy of PLD's
+There is a hierarchy of PLD's:
 
 - SPLD
 - GAL

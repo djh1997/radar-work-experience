@@ -9,7 +9,7 @@ The individual [files](https://github.com/djh1997/radar-work-experience/tree/mai
   
 ![halfadder](fibb/halfadder.vhdl)
 
-The *architecture* code link's individual *components* together into larger blocks of logic. using *internal signals* where necessary.
+The *architecture* code link's individual *components* together into larger blocks of logic, using *internal signals* where necessary.
 
 ![buss adder](fibb/adderbus.vhdl)
 
