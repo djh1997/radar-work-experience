@@ -3,11 +3,11 @@
 For the hands-on activity you will be making your own electronic circuits and making the code to run them.
 You may have already done some electronics at school; if you have you will recognise some of the symbols below.
 
-![circuit diagram symbols](/worksheet/circuit_symbols.svg)
+![circuit diagram symbols](circuit_symbols.svg)
 
 The first activity is to understand how these symbols and pictures relate to electronic components, and how by connecting them together they can show us how to build a circuit from scratch.
 
-In the circuit diagram, the Arduino microcontroller will be shown as a box with information written in it.
+In the circuit diagram, the Arduino micro-controller will be shown as a box with information written in it.
 
 ![arduino](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/ATmega328P_28-PDIP.svg/710px-ATmega328P_28-PDIP.svg.png)
 
@@ -53,7 +53,7 @@ C can run on most major platforms from microcontrollers like Arduino to single b
 
 ## Sonar
 
-![sonar](/worksheet/sonar.svg)
+![sonar](sonar.svg)
 
 This is the ultra-sonic sensor that we will be using, the way these work is by sending out a pulse of sound and waiting to the echo to come back.
 
@@ -75,7 +75,7 @@ It is then possible to calculate the distance by using the time of flight. Tinke
 
 ## Servo
 
-![servo](/worksheet/servo.svg)
+![servo](servo.svg)
 
 The next component we will be adding is a servo. A servo is a geared motor with feedback, this means that we can send it a position and it will turn to that position. Simulation
 
