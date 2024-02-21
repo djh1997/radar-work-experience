@@ -78,7 +78,7 @@ A Nand gate (not-and) is a logic gate which produces an output which is false on
 
 ### Nor
 
-The nor gate is a digital logic gate which produces A high output (1) result if both the inputs to the gate are low (0) if one or both input is high (1), a low output (0) results.; thus its output is complement to that of an OR gate.
+The nor gate is a digital logic gate which produces A high output (1) result if both the inputs to the gate are low (0) if one or both input is high (1), a low output (0) results. thus its output is complement to that of an OR gate.
 
 ![nor gate](logic/nor.svg "nor gate")
 
@@ -94,7 +94,7 @@ The nor gate is a digital logic gate which produces A high output (1) result if 
 
 ### Xor
 
-The xor gate is a digital logic gate that gives a true (1 or high) output when the number of true inputs is odd. An xor gate implements an exclusive or ; that is, a true output results if one, and only one, of the inputs to the gate is true. If both inputs are false (0/low) or both are true, a false output results.
+The xor gate is a digital logic gate that gives a true (1 or high) output when the number of true inputs is odd. An xor gate implements an exclusive or; that is, a true output results if one, and only one, of the inputs to the gate is true. If both inputs are false (0/low) or both are true, a false output results.
 
 ![xor gate](logic/xor.svg "xor gate")
 

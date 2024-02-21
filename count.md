@@ -13,9 +13,9 @@ The values go up in powers of 2 e.g. 1,2,4,8,16,32,64,128,256,1024,2048...
 
 To convert a number from decimal to binary you can:
 
-- pick the biggest power of 2 that is less than or equal the number your converting and put a 1 in that column.
-- then take that number away from your original for example 105-64=41.
-- repeat this until you reach 0.
+- Pick the biggest power of 2 that is less than or equal the number your converting and put a 1 in that column.
+- Then take that number away from your original for example 105-64=41.
+- Repeat this until you reach 0.
 
 41-32=9
 9-8=1
