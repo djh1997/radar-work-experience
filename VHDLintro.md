@@ -20,7 +20,7 @@ There is a hierarchy of PLD's:
 - CPLD
 - FPGA
 
-FPGA's are used for low production runs and high modifiability for future updates. This is because they are a customisable array of logic gates that can be connected however you like to make whatever combinational logic signal processing you want.
+FPGA's are used for low production runs and high modifiability for future updates. This is because they are a customisable array of logic gates, that can be connected however you like, to make whatever combinational logic signal processing you want.
 Another use case is during the development of ASIC designs to reduce the prototyping cycle time.
 
-VHDL and FPGA's their roots in a [US DOD project](https://en.wikipedia.org/wiki/Very_High_Speed_Integrated_Circuit_Program) from the early 1980s.
+VHDL and FPGA's originate from a [US DOD project](https://en.wikipedia.org/wiki/Very_High_Speed_Integrated_Circuit_Program) from the early 1980s.

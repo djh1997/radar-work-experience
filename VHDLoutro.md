@@ -1,4 +1,4 @@
-## VHDL file structure
+## VHDL File Structure
 
 *[GPIO]: Genral purpose input output
 
@@ -30,7 +30,7 @@ BEGIN
 END halfadder;
 ```  
   
-The *architecture* code link's individual *components* together into larger blocks of logic. using *internal signals* where necessary.
+The *architecture* code links individual *components* together into larger blocks of logic. using *internal signals* where necessary.
   
 ```vhdl
 LIBRARY ieee;

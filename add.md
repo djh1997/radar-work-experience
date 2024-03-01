@@ -4,13 +4,13 @@ Likely the first way you'd have learnt addition would have been column addition 
 
 For example if we wanted to add 105 and 27 we'd end up with a table that looked something like this.
 
-|     | hundred's | ten's         | unit's |
+|     | Hundred's | Ten's         | Unit's |
 | --- | --------- | ------------- | ------ |
 |     | 1         | 0             | 5      |
 | +   |           | 2<sub>1</sub> | 7      |
 |     | 1         | 3             | 2      |
 
-Whereas in binary we only have 2 options.
+Where as in binary we only have 2 options.
 
 |  | 128's         | 64's          | 32's          | 16's          | 8's | 4's           | 2's           | 1's |
 | ----- | ------------- | ------------- | ------------- | ------------- | --- | ------------- | ------------- | --- |
@@ -26,5 +26,5 @@ Now try 97 + 155:
 | ----- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
 | 97    | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
 | +155  | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
-| carry | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| Carry | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
 | =     | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
