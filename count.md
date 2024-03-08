@@ -21,15 +21,15 @@ To convert a number from decimal to binary you can:
 9-8=1
 1-1=0
 
-| 128's | 64's | 32's | 16's | 8's | 4's | 2's | 1's |
-| ----- | ---- | ---- | ---- | --- | --- | --- | --- |
-| 0     | 1    | 1    | 0    | 1   | 0   | 0   | 1   |
+| Decimal | 128's | 64's | 32's | 16's | 8's | 4's | 2's | 1's |
+| ------- | ----- | ---- | ---- | ---- | --- | --- | --- | --- |
+| 105     | 0     | 1    | 1    | 0    | 1   | 0   | 0   | 1   |
 
 If you add up the values with 1 in their column 1+8+32+64 you get 105.
 
 Now try converting:
 
-| Decimal | 128's | 64's | 32's | 16's | 8's | 4's | 2's | 1's |
-| ------- | ----- | ---- | ---- | ---- | --- | --- | --- | --- |
-| 97      |  <input type="checkbox">     |  <input type="checkbox">    |   <input type="checkbox">   | <input type="checkbox">     |  <input type="checkbox">   |   <input type="checkbox">  | <input type="checkbox">    |   <input type="checkbox">  |
-|     <input >    | 1     | 0    | 0    | 1    | 1   | 0   | 1   | 1   |
+| Decimal  | 128's                   | 64's                    | 32's                    | 16's                    | 8's                     | 4's                     | 2's                     | 1's                     |
+| -------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- | ----------------------- |
+| 97       | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> | <input type="checkbox"> |
+| <input > | 1                       | 0                       | 0                       | 1                       | 1                       | 0                       | 1                       | 1                       |
