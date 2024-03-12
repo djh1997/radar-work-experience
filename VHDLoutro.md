@@ -1,11 +1,10 @@
 ## VHDL File Structure
-
+  
 *[GPIO]: Genral purpose input output
-
+  
 The individual [files](https://github.com/djh1997/radar-work-experience/tree/main/fibb ) contain the building block for all the sub components.
   
-![halfadder](logic/halfadder.svg )
-![fulladder](logic/adder.svg )
+![fulladder](logic/busadder.svg )
   
 ```vhdl
 LIBRARY ieee;
@@ -30,7 +29,7 @@ BEGIN
 END halfadder;
 ```  
   
-The *architecture* code links individual *components* together into larger blocks of logic. using *internal signals* where necessary.
+The *architecture* code links individual *components* together into larger blocks of logic, using *internal signals* where necessary.
   
 ```vhdl
 LIBRARY ieee;
