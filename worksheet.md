@@ -1,6 +1,6 @@
 # Radar work experience
 
-![phased array wave front example with reflection](/multi.svg) ![qr code](/assets/qr.svg)
+![phased array wave front example with reflection](/multi.svg) 
 
 ![vhdl](/VHDLintro.md)
 
@@ -9,3 +9,6 @@
 ![binary](/binary.md)
 
 ![vhdl](/VHDLoutrolink.md)
+
+[https://djh1997.github.io/radar-work-experience/](https://djh1997.github.io/radar-work-experience/)
+![qr code](/assets/qr.svg)
