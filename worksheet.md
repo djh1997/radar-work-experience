@@ -1,3 +1,16 @@
+---
+export_on_save:
+  html: true
+
+html:
+  embed_local_images: true
+  embed_svg: true
+  offline: False
+  toc: False
+
+print_background: false
+---
+
 # Radar work experience
 
 ![phased array wave front example with reflection](/multi.svg)
