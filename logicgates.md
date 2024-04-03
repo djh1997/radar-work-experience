@@ -12,8 +12,6 @@ A Buffer is an electronic circuit element used to isolate an input from an outpu
 | 0     | <input type="checkbox"> |
 | 1     | <input type="checkbox"> |
 
----
-
 ### Not
 
 A Not gate or an inverter is a logic gate which implements logical negation. It outputs a bit opposite of the bit that is put into it.
@@ -25,8 +23,6 @@ A Not gate or an inverter is a logic gate which implements logical negation. It 
 | A     | Q                       |
 | 0     | <input type="checkbox"> |
 | 1     | <input type="checkbox"> |
-
----
 
 ### And
 
@@ -42,8 +38,6 @@ The And gate is a basic digital logic gate that implements logical conjunction. 
 | 1      | 0      | <input type="checkbox"> |
 | 1      | 1      | <input type="checkbox"> |
 
----
-
 ### Or
 
 The Or gate is a digital logic gate that implements logical disjunction. It outputs a 1 if any inputs are 1, or outputs a 0 only if all inputs are 0.
@@ -57,8 +51,6 @@ The Or gate is a digital logic gate that implements logical disjunction. It outp
 | 0      | 1      | <input type="checkbox"> |
 | 1      | 0      | <input type="checkbox"> |
 | 1      | 1      | <input type="checkbox"> |
-
----
 
 ### Nand
 
@@ -74,8 +66,6 @@ A Nand gate (not-and) is a logic gate which produces an output which is false, o
 | 1      | 0      | <input type="checkbox"> |
 | 1      | 1      | <input type="checkbox"> |
 
----
-
 ### Nor
 
 The Nor gate is a digital logic gate which produces a high output (1) result if both the inputs to the gate are low (0). If one or both input is high (1), a low output (0) results; thus its output is complement to that of an Or gate.
@@ -89,8 +79,6 @@ The Nor gate is a digital logic gate which produces a high output (1) result if 
 | 0      | 1      | <input type="checkbox"> |
 | 1      | 0      | <input type="checkbox"> |
 | 1      | 1      | <input type="checkbox"> |
-
----
 
 ### Xor
 
@@ -106,8 +94,6 @@ The Xor(Exclusive Or) gate is a digital logic gate that gives a true (1 or high)
 | 1      | 0      | <input type="checkbox"> |
 | 1      | 1      | <input type="checkbox"> |
 
----
-
 ### Xnor
 
 The Xnor gate is a digital logic gate whose function is the logical complement of the Exclusive Or (Xor) gate.
@@ -122,8 +108,6 @@ The Xnor gate is a digital logic gate whose function is the logical complement o
 | 1      | 0      | <input type="checkbox"> |
 | 1      | 1      | <input type="checkbox"> |
 
----
-
 Now try some where there is more than one gate.
 
 ### Half adder
@@ -137,8 +121,6 @@ Now try some where there is more than one gate.
 | 0     | 1   | <input type="checkbox"> | <input type="checkbox"> |
 | 1     | 0   | <input type="checkbox"> | <input type="checkbox"> |
 | 1     | 1   | <input type="checkbox"> | <input type="checkbox"> |
-
----
 
 ### Adder
 
