@@ -1,7 +1,6 @@
 ### Counting
 
 Counting in binary can seem a bit daunting but it's not really any different to normal decimal counting.
-
 When you were first learning numbers you'd have been taught about the unit's ten's hundred's columns system.
 
 | Hundred's | Ten's | Unit's |
@@ -26,7 +25,6 @@ To convert a number from decimal to binary you can:
 | 105     | 0     | 1    | 1    | 0    | 1   | 0   | 0   | 1   |
 
 If you add up the values with 1 in their column 1+8+32+64 you get 105.
-
 Now try converting:
 
 | Decimal  | 128's                   | 64's                    | 32's                    | 16's                    | 8's                     | 4's                     | 2's                     | 1's                     |
