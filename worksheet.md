@@ -11,7 +11,9 @@ html:
 print_background: false
 ---
 
-# Radar work experience
+![logo](https://www.baesystems.com/sites/BAE-Static/latest/img/logo_baesystems_borderless.svg){height="7mm"}
+
+![tab](/assets/tab.svg)
 
 ![phased array wave front example with reflection](/multi.svg)
 ![vhdl](/VHDLintro.md)

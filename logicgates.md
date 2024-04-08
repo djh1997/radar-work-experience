@@ -1,4 +1,4 @@
-## Logic Gates
+![logic gates](/assets/logic%20gates.svg)
 
 ### Buffer
 

@@ -1,4 +1,4 @@
-## Binary
+![binary](/assets/binary.svg)
 
 ![count](count.md)
 
