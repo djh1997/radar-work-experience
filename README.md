@@ -14,3 +14,5 @@ Then move on to making the half and full adder to generate the Fibonacci sequenc
 [Here](VHDLoutro.md) is an example structure of a VHDL project.
 
 A single page version of this site is available [Here](/worksheet.html).
+
+<!--- to pint the worksheet zoom to a page count of a mulitple of 4 then print as a booklet (subset - both sides / binding - left--->
