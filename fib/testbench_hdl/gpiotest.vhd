@@ -11,18 +11,20 @@ ENTITY GPIO_Test is
 END ENTITY GPIO_Test;
 
 architecture tb of GPIO_Test is
-	SIGNAL	done	:	STD_LOGIC;
-	SIGNAL	clk		:	STD_LOGIC;
+	SIGNAL	    done	       :	STD_LOGIC;
+	SIGNAL	    clk          :	STD_LOGIC;
+  CONSTANT    clk_speed    :  TIME  := 20 ns;
+  SIGNAL      clk_system   :  STD_LOGIC;
 begin
 
  --! Port map declaration for
-	UUT : ENTITY design_lib.fibber
+	UUT : ENTITY design_lib.fibb
 		port map (done	=> done,
 			      clk	=> clk_system);
 
-    Clk: PROCESS is
+    Clk_gen: PROCESS is
     begin
-        while now <= 500*clk_speed loop
+        while TRUE loop
             clk_system <= '0';
             wait for clk_speed/2;
             clk_system <= '1';

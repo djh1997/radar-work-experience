@@ -18,10 +18,10 @@ ARCHITECTURE fibber OF fibb IS
 
 SIGNAL carry : std_logic;
 SIGNAL bit1 : std_logic_vector(7 downto 0);
-SIGNAL bit2 : std_logic_vector(7 downto 0) := (0=>'1',others=>'0');
+SIGNAL bit2 : std_logic_vector(7 downto 0);
 SIGNAL sum : std_logic_vector(7 downto 0);
 
-COMPONENT busadder
+COMPONENT busadd
     PORT (
         bit1, bit2    : IN    std_logic_vector(7 downto 0);
         sum     : OUT   std_logic_vector(7 downto 0);
@@ -29,7 +29,7 @@ COMPONENT busadder
     );
 END COMPONENT;
 
-COMPONENT shift_register
+COMPONENT shift
     PORT( 
         rst,trg : IN        std_logic;
         ip      : IN        std_logic_vector (7 DOWNTO 0);
@@ -39,14 +39,14 @@ COMPONENT shift_register
 END COMPONENT;
 
 BEGIN
-	I0 : busadder
+	I0 : busadd
 	PORT MAP (
 		bit1    => bit1,
 		bit2    => bit2,
 		sum     => sum,
 		carry   => carry
 	);
-	I1 : shift_register
+	I1 : shift
 	port map (
 		rst		=> carry,
 		trg		=> clk,
@@ -54,4 +54,5 @@ BEGIN
 		op1		=> bit1,
 		op2		=> bit2
 	);
+  done <= carry;
 END fibber;

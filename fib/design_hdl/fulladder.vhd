@@ -21,7 +21,7 @@ SIGNAL ha1carry_int : Std_Logic;
 SIGNAL ha2sum_int   : Std_Logic;
 SIGNAL ha2carry_int : Std_Logic;
 
-COMPONENT halfadder
+COMPONENT halfadd
     PORT (
         bit1, bit2	: IN    std_logic;
         sum, carry	: OUT   std_logic
@@ -29,7 +29,7 @@ COMPONENT halfadder
 END COMPONENT;
    
 BEGIN
-    I0 : halfadder
+    I0 : halfadd
     PORT MAP (
         bit1    => bit1,
         bit2    => bit2,
@@ -37,7 +37,7 @@ BEGIN
         carry   => ha1carry_int
     );
 	
-    I1 : halfadder
+    I1 : halfadd
     PORT MAP (
         bit1    => ha1sum_int,
         bit2    => carryin,
