@@ -16,11 +16,13 @@ END fulladd ;
 
 ARCHITECTURE fulladder OF fulladd IS
 
+-- set up internal signals
 SIGNAL ha1sum_int   : Std_Logic;
 SIGNAL ha1carry_int : Std_Logic;
 SIGNAL ha2sum_int   : Std_Logic;
 SIGNAL ha2carry_int : Std_Logic;
 
+-- call up lower component
 COMPONENT halfadd
     PORT (
         bit1, bit2	: IN    std_logic;
@@ -29,6 +31,8 @@ COMPONENT halfadd
 END COMPONENT;
    
 BEGIN
+
+-- connect lowwer comopnents to eachother and internal signals
     I0 : halfadd
     PORT MAP (
         bit1    => bit1,

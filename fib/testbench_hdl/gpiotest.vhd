@@ -21,7 +21,7 @@ begin
 	UUT : ENTITY design_lib.fibb
 		port map (done	=> done,
 			      clk	=> clk_system);
-
+-- set up a process to generate a clock
     Clk_gen: PROCESS is
     begin
         while TRUE loop

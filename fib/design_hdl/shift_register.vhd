@@ -10,11 +10,8 @@ ENTITY shift IS
         op2			: OUT       std_logic_vector (7 DOWNTO 0) := (others=>'0')
     );
 
--- Declarations
-
 END shift ;
 
--- hds interface_END
 ARCHITECTURE shift_register OF shift IS
 BEGIN
 shiftrg: PROCESS(trg)

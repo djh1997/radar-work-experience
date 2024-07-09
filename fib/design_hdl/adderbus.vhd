@@ -38,6 +38,7 @@ BEGIN
               sum     => sum(0),
               carry   => ha1carry_int(0));
 	
+              -- systematically  generate component instantiate
     G1 : for i in 0 to 6 generate
         C1: fulladd
             port map (bit1    => bit1(i+1),
