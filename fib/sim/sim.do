@@ -7,6 +7,9 @@ if [file exists d:/userdata] {
    file mkdir d:/userdata
    }
 
+# set net_msg_user [get_net_msg_user] 
+set net_msg_user user
+
 if [file exists d:/userdata/$net_msg_user] {
    } else {
    file mkdir d:/userdata/$net_msg_user

@@ -2,7 +2,7 @@
   
 *[GPIO]: Genral purpose input output
   
-The individual [files](https://github.com/djh1997/radar-work-experience/tree/main/fibb ) contain the building block for all the sub components.
+The individual [files](https://github.com/djh1997/radar-work-experience/tree/main/fib ) contain the building block for all the sub components.
   
 ![fulladder](logic/busadder.svg )
   
@@ -119,7 +119,7 @@ architecture tb of GPIO_Test is
 begin
   
  --! Port map declaration for
-	UUT : ENTITY design_lib.fibber
+	UUT : ENTITY design_lib.fiber
 		port map (
 			done	=> done,
 			clk		=> clk_system,
