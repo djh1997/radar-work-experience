@@ -3,8 +3,8 @@ export_on_save:
   html: true
 
 html:
-  embed_local_images: true
-  embed_svg: true
+  embed_local_images: false
+  embed_svg: false
   offline: False
   toc: False
 
