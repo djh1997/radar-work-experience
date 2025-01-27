@@ -4,27 +4,27 @@ set start_time [clock seconds]
 
 set net_msg_user [get_net_msg_user]
 
-if [file exists d:/userdata] {
+if [file exists ../userdata] {
    } else {
-   file mkdir d:/userdata
+   file mkdir ../userdata
    }
 
-if [file exists d:/userdata/$net_msg_user] {
+if [file exists ../userdata/$net_msg_user] {
    } else {
-   file mkdir d:/userdata/$net_msg_user
+   file mkdir ../userdata/$net_msg_user
    }
 
-if [file exists d:/userdata/$net_msg_user/fib] {
+if [file exists ../userdata/$net_msg_user/fib] {
    } else {
-   file mkdir d:/userdata/$net_msg_user/fib
+   file mkdir ../userdata/$net_msg_user/fib
    }
 
-if [file exists d:/userdata/$net_msg_user/fib/lib] {
+if [file exists ../userdata/$net_msg_user/fib/lib] {
    } else {
-   file mkdir d:/userdata/$net_msg_user/fib/lib
+   file mkdir ../userdata/$net_msg_user/fib/lib
    }
 
-set design_root_directory_lib d:/userdata/$net_msg_user/fib
+set design_root_directory_lib ../userdata/$net_msg_user/fib
 
 if [file exists $design_root_directory_lib/lib/design_lib] {
   vdel -all -lib $design_root_directory_lib/lib/design_lib }
