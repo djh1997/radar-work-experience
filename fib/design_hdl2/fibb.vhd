@@ -3,8 +3,8 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
 LIBRARY design_lib;
-USE design_lib.ALL;
-USE design_lib.fib_parameters.ALL;
+USE design_lib.all;
+USE design_lib.fib_parameters.all;
 
 ENTITY fibb IS
     PORT( 

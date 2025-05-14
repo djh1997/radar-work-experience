@@ -12,7 +12,7 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
   
 LIBRARY design_lib;
-USE design_lib.ALL;
+USE design_lib.all;
   
 ENTITY halfadd IS
     PORT( 
@@ -37,7 +37,7 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
   
 LIBRARY design_lib;
-USE design_lib.ALL;
+USE design_lib.all;
   
 ENTITY busadd IS
     PORT( 
@@ -99,13 +99,13 @@ Then there is the GPIO test bench to run a simulation of the code.
   
 ```vhdl
 LIBRARY IEEE;
-USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.NUMERIC_STD.ALL;
+USE IEEE.STD_LOGIC_1164.all;
+USE IEEE.NUMERIC_STD.all;
   
 --! Local libraries
   
 LIBRARY design_lib;
-USE design_lib.ALL;
+USE design_lib.all;
   
 --! ENTITY/Package Description
 ENTITY GPIO_Test is

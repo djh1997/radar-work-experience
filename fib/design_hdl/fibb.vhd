@@ -3,13 +3,13 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
 LIBRARY design_lib;
-USE design_lib.ALL;
+USE design_lib.all;
 
 ENTITY fibb IS
-    PORT( 
-        clk    : IN    std_logic;
-        done   : OUT   std_logic
-    );
+  PORT( 
+    clk    : IN    std_logic;
+    done   : OUT   std_logic
+  );
 
 
 END fibb ;
@@ -22,20 +22,20 @@ SIGNAL bit2 : std_logic_vector(7 downto 0);
 SIGNAL sum : std_logic_vector(7 downto 0);
 
 COMPONENT busadd
-    PORT (
-        bit1, bit2    : IN    std_logic_vector(7 downto 0);
-        sum     : OUT   std_logic_vector(7 downto 0);
-        carry   : OUT   std_logic
-    );
+  PORT (
+    bit1, bit2  : IN  std_logic_vector(7 downto 0);
+    sum         : OUT std_logic_vector(7 downto 0);
+    carry       : OUT std_logic
+  );
 END COMPONENT;
 
 COMPONENT shift
-    PORT( 
-        rst,trg : IN        std_logic;
-        ip      : IN        std_logic_vector (7 DOWNTO 0);
-        op1     : INOUT     std_logic_vector (7 DOWNTO 0);
-        op2     : OUT       std_logic_vector (7 DOWNTO 0)
-    );
+  PORT( 
+    rst,trg : IN    std_logic;
+    ip      : IN    std_logic_vector (7 DOWNTO 0);
+    op1     : INOUT std_logic_vector (7 DOWNTO 0);
+    op2     : OUT   std_logic_vector (7 DOWNTO 0)
+  );
 END COMPONENT;
 
 BEGIN

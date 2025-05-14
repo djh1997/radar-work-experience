@@ -1,6 +1,6 @@
 LIBRARY IEEE;
-USE IEEE.Std_Logic_1164.ALL;
-USE IEEE.Numeric_Std.ALL;
+USE IEEE.std_Logic_1164.all;
+USE IEEE.Numeric_std.all;
 
 --------------------------------------------------------------------------------
 --                                                                            --

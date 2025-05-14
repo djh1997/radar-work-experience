@@ -1,10 +1,10 @@
 LIBRARY IEEE;
-USE IEEE.STD_LOGIC_1164.ALL;
-USE IEEE.NUMERIC_STD.ALL;
+USE IEEE.STD_LOGIC_1164.all;
+USE IEEE.NUMERIC_STD.all;
 
 --! Local libraries
 LIBRARY design_lib;
-USE design_lib.ALL;
+USE design_lib.all;
 
 --! ENTITY/Package Description
 ENTITY GPIO_Test is

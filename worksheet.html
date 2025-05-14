@@ -5,7 +5,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css">
       
       
       
@@ -326,10 +326,10 @@ Another use case is during the development of <abbr title="Application Specific 
 <table>
 <thead>
 <tr>
-<th>Input</th>
-<th></th>
-<th>Output</th>
-<th></th>
+<th colspan="2">Input</th>
+
+<th colspan="2">Output</th>
+
 </tr>
 </thead>
 <tbody>
@@ -370,11 +370,11 @@ Another use case is during the development of <abbr title="Application Specific 
 <table>
 <thead>
 <tr>
-<th>Input</th>
-<th></th>
-<th></th>
-<th>Output</th>
-<th></th>
+<th colspan="3">Input</th>
+
+
+<th colspan="2">Output</th>
+
 </tr>
 </thead>
 <tbody>
@@ -565,8 +565,8 @@ For example if we wanted to add 105 and 27 we'd end up with a table that looked 
 <td>5</td>
 </tr>
 <tr>
-<td>+27</td>
-<td></td>
+<td colspan="2">+27</td>
+
 <td>2<sub>1</sub></td>
 <td>7</td>
 </tr>
@@ -707,12 +707,13 @@ Now try 97 + 155:</p>
 <span class="token keyword keyword-USE">USE</span> ieee<span class="token punctuation">.</span>std_logic_arith<span class="token punctuation">.</span><span class="token keyword keyword-all">all</span><span class="token punctuation">;</span>
 
 <span class="token keyword keyword-LIBRARY">LIBRARY</span> design_lib<span class="token punctuation">;</span>
-<span class="token keyword keyword-USE">USE</span> design_lib<span class="token punctuation">.</span><span class="token keyword keyword-ALL">ALL</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-USE">USE</span> design_lib<span class="token punctuation">.</span><span class="token keyword keyword-all">all</span><span class="token punctuation">;</span>
 
 <span class="token comment">-- set up the inputs and outputs for the component</span>
 <span class="token keyword keyword-ENTITY">ENTITY</span> halfadd <span class="token keyword keyword-IS">IS</span>
-    <span class="token keyword keyword-PORT">PORT</span><span class="token punctuation">(</span>bit1<span class="token punctuation">,</span> bit2	<span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-         sum<span class="token punctuation">,</span> carry	<span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword keyword-PORT">PORT</span><span class="token punctuation">(</span>
+    bit1<span class="token punctuation">,</span> bit2	<span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    sum<span class="token punctuation">,</span> carry	<span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> halfadd <span class="token punctuation">;</span>
 
 <span class="token comment">-- set up the internal combinational logic</span>
@@ -728,13 +729,14 @@ Now try 97 + 155:</p>
 <span class="token keyword keyword-USE">USE</span> ieee<span class="token punctuation">.</span>std_logic_arith<span class="token punctuation">.</span><span class="token keyword keyword-all">all</span><span class="token punctuation">;</span>
 
 <span class="token keyword keyword-LIBRARY">LIBRARY</span> design_lib<span class="token punctuation">;</span>
-<span class="token keyword keyword-USE">USE</span> design_lib<span class="token punctuation">.</span><span class="token keyword keyword-ALL">ALL</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-USE">USE</span> design_lib<span class="token punctuation">.</span><span class="token keyword keyword-all">all</span><span class="token punctuation">;</span>
 
 <span class="token keyword keyword-ENTITY">ENTITY</span> busadd <span class="token keyword keyword-IS">IS</span>
-    <span class="token keyword keyword-PORT">PORT</span><span class="token punctuation">(</span>bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-downto">downto</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-         bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-downto">downto</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-         sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-downto">downto</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">:=</span> <span class="token punctuation">(</span><span class="token keyword keyword-others">others</span><span class="token operator">=</span><span class="token operator">&gt;</span><span class="token number">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-         carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword keyword-PORT">PORT</span><span class="token punctuation">(</span>
+    bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-downto">downto</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-downto">downto</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-downto">downto</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">:=</span> <span class="token punctuation">(</span><span class="token keyword keyword-others">others</span><span class="token operator">=</span><span class="token operator">&gt;</span><span class="token number">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> busadd <span class="token punctuation">;</span>
 
 <span class="token keyword keyword-ARCHITECTURE">ARCHITECTURE</span> busadder <span class="token keyword keyword-OF">OF</span> busadd <span class="token keyword keyword-IS">IS</span>
@@ -742,47 +744,51 @@ Now try 97 + 155:</p>
 <span class="token keyword keyword-SIGNAL">SIGNAL</span> ha1carry_int <span class="token punctuation">:</span> <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-downto">downto</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">:=</span> <span class="token punctuation">(</span><span class="token keyword keyword-others">others</span><span class="token operator">=</span><span class="token operator">&gt;</span><span class="token number">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
 <span class="token keyword keyword-COMPONENT">COMPONENT</span> halfadd
-    <span class="token keyword keyword-PORT">PORT</span> <span class="token punctuation">(</span>bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-          bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-          sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">;</span>
-          carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword keyword-PORT">PORT</span> <span class="token punctuation">(</span>
+    bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">;</span>
+    carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> <span class="token keyword keyword-COMPONENT">COMPONENT</span><span class="token punctuation">;</span>
 
 <span class="token keyword keyword-COMPONENT">COMPONENT</span> fulladd
-    <span class="token keyword keyword-PORT">PORT</span> <span class="token punctuation">(</span>bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-         bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-         carryin <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-         sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">;</span>
-         carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword keyword-PORT">PORT</span> <span class="token punctuation">(</span>
+    bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    carryin <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">;</span>
+    carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> <span class="token keyword keyword-COMPONENT">COMPONENT</span><span class="token punctuation">;</span>
    
 <span class="token keyword keyword-BEGIN">BEGIN</span>
-    I0 <span class="token punctuation">:</span> halfadd
-    <span class="token keyword keyword-PORT">PORT</span> <span class="token keyword keyword-MAP">MAP</span> <span class="token punctuation">(</span>bit1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit1</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-              bit2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit2</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-              sum     <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-              carry   <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-	
-              <span class="token comment">-- systematically  generate component instantiate</span>
-    G1 <span class="token punctuation">:</span> <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> <span class="token number">0</span> <span class="token keyword keyword-to">to</span> <span class="token number">6</span> <span class="token keyword keyword-generate">generate</span>
-        C1<span class="token punctuation">:</span> fulladd
-            <span class="token keyword keyword-port">port</span> <span class="token keyword keyword-map">map</span> <span class="token punctuation">(</span>bit1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit1</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-                     bit2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit2</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-                     carryin <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">,</span>
-                     sum     <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">sum</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-                     carry   <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword keyword-end">end</span> <span class="token keyword keyword-generate">generate</span><span class="token punctuation">;</span>
+  I0 <span class="token punctuation">:</span> halfadd
+  <span class="token keyword keyword-PORT">PORT</span> <span class="token keyword keyword-MAP">MAP</span> <span class="token punctuation">(</span>
+    bit1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit1</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    bit2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit2</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    sum     <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    carry   <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    
+  <span class="token comment">-- systematically  generate component instantiate</span>
+  G1 <span class="token punctuation">:</span> <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> <span class="token number">0</span> <span class="token keyword keyword-to">to</span> <span class="token number">6</span> <span class="token keyword keyword-generate">generate</span>
+    C1<span class="token punctuation">:</span> fulladd
+      <span class="token keyword keyword-port">port</span> <span class="token keyword keyword-map">map</span> <span class="token punctuation">(</span>
+        bit1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit1</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        bit2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit2</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        carryin <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">,</span>
+        sum     <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">sum</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        carry   <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword keyword-end">end</span> <span class="token keyword keyword-generate">generate</span><span class="token punctuation">;</span>
     carry <span class="token operator">&lt;=</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> busadder<span class="token punctuation">;</span>
 </code></pre><p></p>
 <p>Then there is the <abbr title="Genral purpose input output">GPIO</abbr> test bench to run a simulation of the code.</p>
 <p></p><pre data-role="codeBlock" data-info="vhdl" class="language-vhdl vhdl"><code><span class="token keyword keyword-LIBRARY">LIBRARY</span> IEEE<span class="token punctuation">;</span>
-<span class="token keyword keyword-USE">USE</span> IEEE<span class="token punctuation">.</span>STD_LOGIC_1164<span class="token punctuation">.</span><span class="token keyword keyword-ALL">ALL</span><span class="token punctuation">;</span>
-<span class="token keyword keyword-USE">USE</span> IEEE<span class="token punctuation">.</span>NUMERIC_STD<span class="token punctuation">.</span><span class="token keyword keyword-ALL">ALL</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-USE">USE</span> IEEE<span class="token punctuation">.</span>STD_LOGIC_1164<span class="token punctuation">.</span><span class="token keyword keyword-all">all</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-USE">USE</span> IEEE<span class="token punctuation">.</span>NUMERIC_STD<span class="token punctuation">.</span><span class="token keyword keyword-all">all</span><span class="token punctuation">;</span>
 
 <span class="token comment">--! Local libraries</span>
 <span class="token keyword keyword-LIBRARY">LIBRARY</span> design_lib<span class="token punctuation">;</span>
-<span class="token keyword keyword-USE">USE</span> design_lib<span class="token punctuation">.</span><span class="token keyword keyword-ALL">ALL</span><span class="token punctuation">;</span>
+<span class="token keyword keyword-USE">USE</span> design_lib<span class="token punctuation">.</span><span class="token keyword keyword-all">all</span><span class="token punctuation">;</span>
 
 <span class="token comment">--! ENTITY/Package Description</span>
 <span class="token keyword keyword-ENTITY">ENTITY</span> GPIO_Test <span class="token keyword keyword-is">is</span>

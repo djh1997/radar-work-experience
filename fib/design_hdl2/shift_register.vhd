@@ -3,8 +3,8 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
 
 LIBRARY design_lib;
-USE design_lib.ALL;
-USE design_lib.fib_parameters.ALL;
+USE design_lib.all;
+USE design_lib.fib_parameters.all;
 
 ENTITY shift IS
     PORT( 
@@ -20,7 +20,7 @@ ARCHITECTURE shift_register OF shift IS
 BEGIN
 shiftrg: PROCESS(trg)
     BEGIN
-        IF FALLING_EDGE(trg) THEN
+        IF FallING_EDGE(trg) THEN
             op2<=op1;
             op1<=ip(BusWidth downto 0);
             IF rst='1' THEN
