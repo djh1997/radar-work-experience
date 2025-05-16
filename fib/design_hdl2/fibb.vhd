@@ -7,36 +7,35 @@ USE design_lib.all;
 USE design_lib.fib_parameters.all;
 
 ENTITY fibb IS
-    PORT( 
-        clk    : IN    std_logic;
-        done   : OUT   std_logic
-    );
-
+  PORT( 
+    clk    : IN    std_logic;
+    done   : OUT   std_logic
+  );
 
 END fibb ;
 
 ARCHITECTURE fibber OF fibb IS
 
 SIGNAL carry : std_logic;
-SIGNAL bit1 : std_logic_vector(BusWidth downto 0);
-SIGNAL bit2 : std_logic_vector(BusWidth downto 0);
-SIGNAL sum : std_logic_vector(BusWidth downto 0);
+SIGNAL bit1 : std_logic_vector(BusWidth DOWNTO 0);
+SIGNAL bit2 : std_logic_vector(BusWidth DOWNTO 0);
+SIGNAL sum : std_logic_vector(BusWidth DOWNTO 0);
 
 COMPONENT busadd
-    PORT (
-        bit1, bit2    : IN    std_logic_vector(BusWidth downto 0);
-        sum     : OUT   std_logic_vector(BusWidth downto 0);
-        carry   : OUT   std_logic
-    );
+  PORT (
+    bit1, bit2    : IN    std_logic_vector(BusWidth DOWNTO 0);
+    sum     : OUT   std_logic_vector(BusWidth DOWNTO 0);
+    carry   : OUT   std_logic
+  );
 END COMPONENT;
 
 COMPONENT shift
-    PORT( 
-        rst,trg : IN        std_logic;
-        ip      : IN        std_logic_vector (BusWidth DOWNTO 0);
-        op1     : INOUT     std_logic_vector (BusWidth DOWNTO 0);
-        op2     : OUT       std_logic_vector (BusWidth DOWNTO 0)
-    );
+  PORT( 
+    rst,trg : IN        std_logic;
+    ip      : IN        std_logic_vector (BusWidth DOWNTO 0);
+    op1     : INOUT     std_logic_vector (BusWidth DOWNTO 0);
+    op2     : OUT       std_logic_vector (BusWidth DOWNTO 0)
+  );
 END COMPONENT;
 
 BEGIN

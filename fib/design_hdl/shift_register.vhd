@@ -18,7 +18,7 @@ shiftrg: PROCESS(trg)
   BEGIN
     IF FallING_EDGE(trg) THEN
       op2<=op1;
-      op1<=ip(7 downto 0);
+      op1<=ip(7 DOWNTO 0);
       IF rst='1' THEN
         op1<=(0=>'1',others=>'0');
         op2<=(others=>'0');

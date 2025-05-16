@@ -17,14 +17,14 @@ END fibb ;
 ARCHITECTURE fibber OF fibb IS
 
 SIGNAL carry : std_logic;
-SIGNAL bit1 : std_logic_vector(7 downto 0);
-SIGNAL bit2 : std_logic_vector(7 downto 0);
-SIGNAL sum : std_logic_vector(7 downto 0);
+SIGNAL bit1 : std_logic_vector(7 DOWNTO 0);
+SIGNAL bit2 : std_logic_vector(7 DOWNTO 0);
+SIGNAL sum : std_logic_vector(7 DOWNTO 0);
 
 COMPONENT busadd
   PORT (
-    bit1, bit2  : IN  std_logic_vector(7 downto 0);
-    sum         : OUT std_logic_vector(7 downto 0);
+    bit1, bit2  : IN  std_logic_vector(7 DOWNTO 0);
+    sum         : OUT std_logic_vector(7 DOWNTO 0);
     carry       : OUT std_logic
   );
 END COMPONENT;

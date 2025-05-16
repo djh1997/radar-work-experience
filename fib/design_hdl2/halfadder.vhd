@@ -7,8 +7,9 @@ USE design_lib.all;
 
 -- set up the inputs and outputs for the component
 ENTITY halfadd IS
-    PORT(bit1, bit2	: IN    std_logic;
-         sum, carry	: OUT   std_logic);
+  PORT(
+  bit1, bit2	: IN    std_logic;
+  sum, carry	: OUT   std_logic);
 END halfadd ;
 
 -- set up the internal combinational logic

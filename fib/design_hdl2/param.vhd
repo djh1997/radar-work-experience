@@ -9,7 +9,7 @@ USE IEEE.Numeric_std.all;
 --------------------------------------------------------------------------------
 
 PACKAGE fib_parameters IS
-    CONSTANT BusWidth : INTEGER := 8;
+  CONSTANT BusWidth : INTEGER := 8;
 END fib_parameters;
   
 PACKAGE BODY fib_parameters IS

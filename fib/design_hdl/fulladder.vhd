@@ -30,7 +30,7 @@ END COMPONENT;
    
 BEGIN
 
--- connect lowwer comopnents to eachother and internal signals
+-- connect lower components to each other and internal signals
   I0 : halfadd
   PORT MAP (
     bit1    => bit1,

@@ -41,9 +41,9 @@ USE design_lib.all;
   
 ENTITY busadd IS
     PORT( 
-        bit1    : IN    std_logic_vector(7 downto 0);
-        bit2    : IN    std_logic_vector(7 downto 0);
-        sum     : OUT   std_logic_vector(7 downto 0);
+        bit1    : IN    std_logic_vector(7 DOWNTO 0);
+        bit2    : IN    std_logic_vector(7 DOWNTO 0);
+        sum     : OUT   std_logic_vector(7 DOWNTO 0);
         carry   : OUT   std_logic
     );
   
@@ -51,7 +51,7 @@ END busadd ;
   
 ARCHITECTURE busadder OF busadd IS
   
-SIGNAL ha1carry_int : std_logic_vector(7 downto 0);
+SIGNAL ha1carry_int : std_logic_vector(7 DOWNTO 0);
   
 COMPONENT halfadder
     PORT (
