@@ -712,15 +712,15 @@ Now try 97 + 155:</p>
 <span class="token comment">-- set up the inputs and outputs for the component</span>
 <span class="token keyword keyword-ENTITY">ENTITY</span> halfadd <span class="token keyword keyword-IS">IS</span>
   <span class="token keyword keyword-PORT">PORT</span><span class="token punctuation">(</span>
-    bit1<span class="token punctuation">,</span> bit2	<span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    num1<span class="token punctuation">,</span> num2	<span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
     sum<span class="token punctuation">,</span> carry	<span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> halfadd <span class="token punctuation">;</span>
 
 <span class="token comment">-- set up the internal combinational logic</span>
 <span class="token keyword keyword-ARCHITECTURE">ARCHITECTURE</span> halfadder <span class="token keyword keyword-OF">OF</span> halfadd <span class="token keyword keyword-IS">IS</span>
 <span class="token keyword keyword-BEGIN">BEGIN</span>
-	sum <span class="token operator">&lt;=</span> bit1 <span class="token operator">XOR</span> bit2<span class="token punctuation">;</span>
-	carry <span class="token operator">&lt;=</span> bit1 <span class="token operator">AND</span> bit2<span class="token punctuation">;</span>
+	sum <span class="token operator">&lt;=</span> num1 <span class="token operator">XOR</span> num2<span class="token punctuation">;</span>
+	carry <span class="token operator">&lt;=</span> num1 <span class="token operator">AND</span> num2<span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> halfadder<span class="token punctuation">;</span>
 </code></pre><p></p>
 <p>The <em>architecture</em> code links individual <em>components</em> together into larger blocks of logic, using <em>internal signals</em> where necessary.</p>
@@ -733,8 +733,8 @@ Now try 97 + 155:</p>
 
 <span class="token keyword keyword-ENTITY">ENTITY</span> busadd <span class="token keyword keyword-IS">IS</span>
   <span class="token keyword keyword-PORT">PORT</span><span class="token punctuation">(</span>
-    bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-DOWNTO">DOWNTO</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-DOWNTO">DOWNTO</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    num1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-DOWNTO">DOWNTO</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    num2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-DOWNTO">DOWNTO</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   <span class="token function">std_logic_vector</span><span class="token punctuation">(</span><span class="token number">7</span> <span class="token keyword keyword-DOWNTO">DOWNTO</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">:=</span> <span class="token punctuation">(</span><span class="token keyword keyword-others">others</span><span class="token operator">=</span><span class="token operator">&gt;</span><span class="token number">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> busadd <span class="token punctuation">;</span>
@@ -745,16 +745,16 @@ Now try 97 + 155:</p>
 
 <span class="token keyword keyword-COMPONENT">COMPONENT</span> halfadd
   <span class="token keyword keyword-PORT">PORT</span> <span class="token punctuation">(</span>
-    bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-    bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    num1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    num2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
     sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">;</span>
     carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token keyword keyword-END">END</span> <span class="token keyword keyword-COMPONENT">COMPONENT</span><span class="token punctuation">;</span>
 
 <span class="token keyword keyword-COMPONENT">COMPONENT</span> fulladd
   <span class="token keyword keyword-PORT">PORT</span> <span class="token punctuation">(</span>
-    bit1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
-    bit2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    num1    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
+    num2    <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
     carryin <span class="token punctuation">:</span> <span class="token keyword keyword-IN">IN</span>    std_logic<span class="token punctuation">;</span>
     sum     <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">;</span>
     carry   <span class="token punctuation">:</span> <span class="token keyword keyword-OUT">OUT</span>   std_logic<span class="token punctuation">)</span><span class="token punctuation">;</span>
@@ -763,8 +763,8 @@ Now try 97 + 155:</p>
 <span class="token keyword keyword-BEGIN">BEGIN</span>
   I0 <span class="token punctuation">:</span> halfadd
   <span class="token keyword keyword-PORT">PORT</span> <span class="token keyword keyword-MAP">MAP</span> <span class="token punctuation">(</span>
-    bit1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit1</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-    bit2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit2</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    num1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">num1</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    num2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">num2</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
     sum     <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">sum</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
     carry   <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
     
@@ -772,8 +772,8 @@ Now try 97 + 155:</p>
   G1 <span class="token punctuation">:</span> <span class="token keyword keyword-for">for</span> i <span class="token keyword keyword-in">in</span> <span class="token number">0</span> <span class="token keyword keyword-to">to</span> <span class="token number">6</span> <span class="token keyword keyword-generate">generate</span>
     C1<span class="token punctuation">:</span> fulladd
       <span class="token keyword keyword-port">port</span> <span class="token keyword keyword-map">map</span> <span class="token punctuation">(</span>
-        bit1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit1</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-        bit2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">bit2</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        num1    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">num1</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+        num2    <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">num2</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
         carryin <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">,</span>
         sum     <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">sum</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
         carry   <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">ha1carry_int</span><span class="token punctuation">(</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>

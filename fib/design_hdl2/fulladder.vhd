@@ -7,7 +7,7 @@ USE design_lib.ALL;
 
 ENTITY fulladd IS
   PORT (
-    bit1, bit2, carryin : IN  STD_LOGIC;
+    num1, num2, carryin : IN  STD_LOGIC;
     sum, carry          : OUT STD_LOGIC
   );
 
@@ -24,7 +24,7 @@ ARCHITECTURE fulladder OF fulladd IS
   -- call up lower component
   COMPONENT halfadd
     PORT (
-      bit1, bit2 : IN  STD_LOGIC;
+      num1, num2 : IN  STD_LOGIC;
       sum, carry : OUT STD_LOGIC
     );
   END COMPONENT;
@@ -34,16 +34,16 @@ BEGIN
   -- connect lower components to each other and internal signals
   I0 : halfadd
   PORT MAP(
-    bit1  => bit1,
-    bit2  => bit2,
+    num1  => num1,
+    num2  => num2,
     sum   => ha1sum_int,
     carry => ha1carry_int
   );
 
   I1 : halfadd
   PORT MAP(
-    bit1  => ha1sum_int,
-    bit2  => carryin,
+    num1  => ha1sum_int,
+    num2  => carryin,
     sum   => sum,
     carry => ha2carry_int
   );

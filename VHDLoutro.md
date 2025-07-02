@@ -16,7 +16,7 @@ USE design_lib.all;
   
 ENTITY halfadd IS
     PORT( 
-        bit1, bit2	: IN    std_logic;
+        num1, num2	: IN    std_logic;
         sum, carry	: OUT   std_logic
     );
   
@@ -24,8 +24,8 @@ END halfadd ;
   
 ARCHITECTURE halfadder OF halfadd IS
 BEGIN
-	sum <= bit1 XOR bit2;
-	carry <= bit1 AND bit2;
+	sum <= num1 XOR num2;
+	carry <= num1 AND num2;
 END halfadder;
 ```  
   
@@ -41,8 +41,8 @@ USE design_lib.all;
   
 ENTITY busadd IS
     PORT( 
-        bit1    : IN    std_logic_vector(7 DOWNTO 0);
-        bit2    : IN    std_logic_vector(7 DOWNTO 0);
+        num1    : IN    std_logic_vector(7 DOWNTO 0);
+        num2    : IN    std_logic_vector(7 DOWNTO 0);
         sum     : OUT   std_logic_vector(7 DOWNTO 0);
         carry   : OUT   std_logic
     );
@@ -55,8 +55,8 @@ SIGNAL ha1carry_int : std_logic_vector(7 DOWNTO 0);
   
 COMPONENT halfadder
     PORT (
-        bit1    : IN    std_logic;
-        bit2    : IN    std_logic;
+        num1    : IN    std_logic;
+        num2    : IN    std_logic;
         sum     : OUT   std_logic;
         carry   : OUT   std_logic
     );
@@ -64,8 +64,8 @@ END COMPONENT;
   
 COMPONENT fulladder
     PORT (
-        bit1    : IN    std_logic;
-        bit2    : IN    std_logic;
+        num1    : IN    std_logic;
+        num2    : IN    std_logic;
         carryin : IN    std_logic;
         sum     : OUT   std_logic;
         carry   : OUT   std_logic
@@ -75,8 +75,8 @@ END COMPONENT;
 BEGIN
     I0 : halfadder
     PORT MAP (
-        bit1    => bit1(0),
-        bit2    => bit2(0),
+        num1    => num1(0),
+        num2    => num2(0),
         sum     => sum(0),
         carry   => ha1carry_int(0)
     );
@@ -84,8 +84,8 @@ BEGIN
     G1 : for i in 0 to 6 generate
         C1: fulladder
             port map (
-                bit1    => bit1(i+1),
-                bit2    => bit2(i+1),
+                num1    => num1(i+1),
+                num2    => num2(i+1),
                 carryin => ha1carry_int(i),
                 sum     => sum(i+1),
                 carry   => ha1carry_int(i+1)
