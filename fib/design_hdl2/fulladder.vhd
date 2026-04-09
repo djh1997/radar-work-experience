@@ -18,7 +18,6 @@ ARCHITECTURE fulladder OF fulladd IS
   -- set up internal signals
   SIGNAL ha1sum_int   : STD_LOGIC;
   SIGNAL ha1carry_int : STD_LOGIC;
-  SIGNAL ha2sum_int   : STD_LOGIC;
   SIGNAL ha2carry_int : STD_LOGIC;
 
   -- call up lower component
