@@ -10,6 +10,8 @@ The individual [files](https://github.com/djh1997/radar-work-experience/tree/mai
 
 The *architecture* code links individual *components* together into larger blocks of logic, using *internal signals* where necessary.
 
+![image showing a representation of the vhdl components being built up](/assets/3d_block.png)
+
 ![buss adder](fib/design_hdl/adderbus.vhd)
 
 Then there is the GPIO test bench to run a simulation of the code.
