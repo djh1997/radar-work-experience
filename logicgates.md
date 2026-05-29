@@ -4,11 +4,12 @@
 
 A Buffer is an electronic circuit element used to isolate an input from an output. The buffer's output state mirrors the input state.
 ![buffer](logic/buffer.svg "buffer")
-| Input | Output |
+
+| Input | Output                  |
 | ----- | ----------------------- |
-| A | Q |
-| 0 | <input type="checkbox"> |
-| 1 | <input type="checkbox"> |
+| A     | Q                       |
+| 0     | <input type="checkbox"> |
+| 1     | <input type="checkbox"> |
 
 ### Not
 
