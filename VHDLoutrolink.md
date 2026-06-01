@@ -10,7 +10,7 @@ The individual [files](https://github.com/djh1997/radar-work-experience/tree/mai
 
 The *architecture* code links individual *components* together into larger blocks of logic, using *internal signals* where necessary.
 
-![image showing a representation of the vhdl components being built up](/assets/3d_block.png)
+![image showing a representation of the vhdl components being built up](/assets/8_Bit_Adder_01.png)
 
 ![buss adder](fib/design_hdl/adderbus.vhd)
 
